@@ -1,568 +1,1237 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19042.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 32709 MB
+OS: 'Windows 10 Pro; OS build 19044.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 8141 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity2020.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/5hughj54/Documents/Unity-Platformer
+C:/Users/jackh/Projects/Unity-Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62931
-Successfully changed project path to: C:/Users/5hughj54/Documents/Unity-Platformer
-C:/Users/5hughj54/Documents/Unity-Platformer
+50226
+Successfully changed project path to: C:/Users/jackh/Projects/Unity-Platformer
+C:/Users/jackh/Projects/Unity-Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/5hughj54/Documents/Unity-Platformer/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jackh/Projects/Unity-Platformer/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   27.21.14.5671
+    Driver:   27.21.14.5751
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003128 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003491 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 19.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.953 seconds
+- Completed reload, in  1.488 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000787 seconds.
+Registered in 0.000886 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
+- Completed reload, in  0.897 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1152 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 58.1 MB.
 System memory in use after: 58.2 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1595.
-Total: 1.437600 ms (FindLiveObjects: 0.107800 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.250500 ms  DeleteObjects: 0.048500 ms)
+Total: 2.435100 ms (FindLiveObjects: 0.153100 ms CreateObjectMapping: 0.032500 ms MarkObjects: 2.173000 ms  DeleteObjects: 0.074700 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Platformer
   artifactKey: Guid(ecad26e148c03284db0008c61923b16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer using Guid(ecad26e148c03284db0008c61923b16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07149747b6b546f09f05800ce4d12e8') in 0.009092 seconds
-  Import took 0.011018 seconds .
+Start importing Assets/Platformer using Guid(ecad26e148c03284db0008c61923b16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07149747b6b546f09f05800ce4d12e8') in 0.011095 seconds
+  Import took 0.013674 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
+  Time since last request: 0.000305 seconds.
   path: Assets/Platformer/_Levels
   artifactKey: Guid(cfd12a41f77f07f4480ccd40f9839456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/_Levels using Guid(cfd12a41f77f07f4480ccd40f9839456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2381450285263c6b966101df81ea2893') in 0.008363 seconds
-  Import took 0.009806 seconds .
+Start importing Assets/Platformer/_Levels using Guid(cfd12a41f77f07f4480ccd40f9839456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2381450285263c6b966101df81ea2893') in 0.007700 seconds
+  Import took 0.009626 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Platformer/Characters
+  artifactKey: Guid(a5d601aab16d1ba468274bfea0c3b29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Characters using Guid(a5d601aab16d1ba468274bfea0c3b29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3642cfae786eef6109bb8f309b72a9c3') in 0.008073 seconds
+  Import took 0.009840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
   path: Assets/Platformer/_Levels/Forest.unity
   artifactKey: Guid(ba41d5917662b70439223910a20bba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/_Levels/Forest.unity using Guid(ba41d5917662b70439223910a20bba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a73bde0c0b1b646a2fa1f67274387a') in 0.013999 seconds
-  Import took 0.015527 seconds .
+Start importing Assets/Platformer/_Levels/Forest.unity using Guid(ba41d5917662b70439223910a20bba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a73bde0c0b1b646a2fa1f67274387a') in 0.017035 seconds
+  Import took 0.019013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
+  Time since last request: 0.000220 seconds.
   path: Assets/Platformer/_Levels/Template.scenetemplate
   artifactKey: Guid(181869ae33226044b89e7f9ec2679e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/_Levels/Template.scenetemplate using Guid(181869ae33226044b89e7f9ec2679e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d75e598ef6deeac3902f631750fe5d') in 0.064616 seconds
-  Import took 0.066283 seconds .
+Start importing Assets/Platformer/_Levels/Template.scenetemplate using Guid(181869ae33226044b89e7f9ec2679e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d75e598ef6deeac3902f631750fe5d') in 0.034851 seconds
+  Import took 0.036749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.676270 seconds.
-  path: Assets/Platformer/Art/Square.png
-  artifactKey: Guid(9da19a33789c76e48a2782d241e3dd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Square.png using Guid(9da19a33789c76e48a2782d241e3dd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5630f9bc7079e593a240c84d93bbec7c') in 0.385624 seconds
-  Import took 0.387257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.411931 seconds.
-  path: Assets/Platformer/Art
-  artifactKey: Guid(9c69ce4805a90dc41abf1a207961ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art using Guid(9c69ce4805a90dc41abf1a207961ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1815b6f088b552b05cac042d079877d8') in 0.005817 seconds
-  Import took 0.007390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.578160 seconds.
-  path: Assets/Platformer/Art/Tileset
-  artifactKey: Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tileset using Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be6378f20c32b5c7c4a3848d4aba167') in 0.005352 seconds
-  Import took 0.006929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Platformer/Art/Tileset
-  artifactKey: Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tileset using Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be6378f20c32b5c7c4a3848d4aba167') in 0.002483 seconds
-  Import took 0.004270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.038814 seconds.
-  path: Assets/Platformer/Art/Tilesets
-  artifactKey: Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets using Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b4a44d61fed1fff174953de5918fc8') in 0.006874 seconds
-  Import took 0.008589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 449.628368 seconds.
-  path: Assets/Platformer/Art/Tilesets/Textures
-  artifactKey: Guid(57b832c17f7e5444e85dd70986752546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets/Textures using Guid(57b832c17f7e5444e85dd70986752546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766ce561ef3be778d360978e3ba541f3') in 0.005913 seconds
-  Import took 0.007745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.608786 seconds.
-  path: Assets/Platformer/Art/Tilesets/Textures/factory.png
-  artifactKey: Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets/Textures/factory.png using Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c16d7617bde4a04c2bb48a4e5b60ae8') in 0.011445 seconds
-  Import took 0.013445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.712104 seconds.
-  path: Assets/Platformer/Art/Tilesets/Textures/T_factory.png
-  artifactKey: Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets/Textures/T_factory.png using Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96566b16583a39475256bad4f7d737d6') in 0.009684 seconds
-  Import took 0.011551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.032818 seconds.
-  path: Assets/Platformer/Art/Tilesets/Textures/TileSetGreen.png
-  artifactKey: Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets/Textures/TileSetGreen.png using Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249e186f33bb1e2034ca9b2b04c9dacd') in 0.010148 seconds
-  Import took 0.012205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.053113 seconds.
-  path: Assets/Platformer/Art/Tilesets/Textures/T_grassland.png
-  artifactKey: Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets/Textures/T_grassland.png using Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ea055ac24bbfdf42eeb62daa403cc') in 0.011169 seconds
-  Import took 0.013320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.714689 seconds.
-  path: Assets/Platformer/Art/Tilesets/Textures/T_factory.png
-  artifactKey: Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets/Textures/T_factory.png using Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a08b4b73b3f915d7624941282e160f') in 0.010912 seconds
-  Import took 0.012859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Platformer/Art/Tilesets/Textures/T_grassland.png
-  artifactKey: Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Tilesets/Textures/T_grassland.png using Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bb29f4f494c9fe807c73b75b4ad35e') in 0.008318 seconds
-  Import took 0.009799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.800629 seconds.
-  path: Assets/Platformer/Art/Enviroment
-  artifactKey: Guid(780f0f2289910c44c8fcad220f12cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Enviroment using Guid(780f0f2289910c44c8fcad220f12cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f7fa71a0d9f92f547877f3a1c1274f') in 0.006412 seconds
-  Import took 0.007935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Platformer/Art/Enviroment
-  artifactKey: Guid(780f0f2289910c44c8fcad220f12cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Art/Enviroment using Guid(780f0f2289910c44c8fcad220f12cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f7fa71a0d9f92f547877f3a1c1274f') in 0.002553 seconds
-  Import took 0.003989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.078767 seconds.
-  path: Assets/Platformer/UserInterface
-  artifactKey: Guid(e74ae7f90327dc74a959ffc458a96b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/UserInterface using Guid(e74ae7f90327dc74a959ffc458a96b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f21b79ecbc462ed083232f92b6e093a') in 0.006011 seconds
-  Import took 0.007574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.471039 seconds.
-  path: Assets/Platformer/Enviroment
-  artifactKey: Guid(9c69ce4805a90dc41abf1a207961ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment using Guid(9c69ce4805a90dc41abf1a207961ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1282aa3064b7e467ac296358ffbf17e5') in 0.002272 seconds
-  Import took 0.003818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Platformer/Enviroment
-  artifactKey: Guid(9c69ce4805a90dc41abf1a207961ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment using Guid(9c69ce4805a90dc41abf1a207961ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1282aa3064b7e467ac296358ffbf17e5') in 0.001805 seconds
-  Import took 0.003210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.224844 seconds.
+  Time since last request: 213.679916 seconds.
   path: Assets/Platformer/Enviroment/Interactive
   artifactKey: Guid(58c9a9056d53d094395debd6f170f4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive using Guid(58c9a9056d53d094395debd6f170f4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790a14378d736450d188f29c439db676') in 0.005977 seconds
-  Import took 0.007558 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive using Guid(58c9a9056d53d094395debd6f170f4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6697253dca2a2dbaaf11c6983114f') in 0.008116 seconds
+  Import took 0.010329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.856642 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/wall_spikes.png
-  artifactKey: Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/wall_spikes.png using Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b3e928236975e4c3a804dcab928fa9') in 0.011725 seconds
-  Import took 0.013638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.554553 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/New Folder
-  artifactKey: Guid(900e7d61a1edda54881b764cc6cfe94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/New Folder using Guid(900e7d61a1edda54881b764cc6cfe94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6e52de1cc4e59abcab2bd18f77b300') in 0.006748 seconds
-  Import took 0.008552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.569274 seconds.
+  Time since last request: 1.257128 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures
   artifactKey: Guid(900e7d61a1edda54881b764cc6cfe94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures using Guid(900e7d61a1edda54881b764cc6cfe94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ec015462e9113e2ce068bb05c6e5eb') in 0.001854 seconds
-  Import took 0.003380 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures using Guid(900e7d61a1edda54881b764cc6cfe94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266f55fc74fa715a69c3f465748cc051') in 0.007072 seconds
+  Import took 0.009191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.808859 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/T_wallspikes.png
-  artifactKey: Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/T_wallspikes.png using Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c333a29c4de6dd4ad6eff1ec7c3ab8') in 0.008569 seconds
-  Import took 0.010208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.014956 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/saw.png
-  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b467101a188b8a347c0f114943008c55') in 0.010454 seconds
-  Import took 0.012298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.217638 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/T_saw.png
-  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b052c3a615e36144d098a364daaef64') in 0.011710 seconds
-  Import took 0.013492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.967863 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/rail.png
-  artifactKey: Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/rail.png using Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d74feef58aa2001f3943959677d5272') in 0.011019 seconds
-  Import took 0.012830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004936 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/rail.png
-  artifactKey: Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/rail.png using Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d74feef58aa2001f3943959677d5272') in 0.005230 seconds
-  Import took 0.006784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.361210 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/T_rail.png
-  artifactKey: Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/T_rail.png using Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fcdba6234b8565752a884216f257b4') in 0.009681 seconds
-  Import took 0.011912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.379616 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/platforms.png
-  artifactKey: Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/platforms.png using Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c302700de83fc0592ddd2269374a5d4') in 0.008427 seconds
-  Import took 0.010553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.627867 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/T_platforms.png
-  artifactKey: Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/T_platforms.png using Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97387c641fc21dbec3056964ba085844') in 0.010170 seconds
-  Import took 0.011916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.973142 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/key.png
-  artifactKey: Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/key.png using Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05c5d769bb09608e8df574b50d8b632') in 0.008522 seconds
-  Import took 0.010335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.189826 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/T_key.png
-  artifactKey: Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/T_key.png using Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaaab48b8ef17c1e9da242c460e2eba') in 0.008454 seconds
-  Import took 0.010345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.828398 seconds.
+  Time since last request: 0.065546 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures/T_blades.png
   artifactKey: Guid(36e8f95f7ba7bf7488f57b3c34987476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_blades.png using Guid(36e8f95f7ba7bf7488f57b3c34987476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb3f83a303d92dfebccc9f6df013622') in 0.007507 seconds
-  Import took 0.009082 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_blades.png using Guid(36e8f95f7ba7bf7488f57b3c34987476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88e04e5f2349d8e24cb6a180b3bfb37') in 0.116717 seconds
+  Import took 0.118941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
+  Time since last request: 0.000207 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures/T_door.png
   artifactKey: Guid(013a68eb7a91e35438e67ab3f74e0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_door.png using Guid(013a68eb7a91e35438e67ab3f74e0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5809dd7357b0151ab4422f70c619680') in 0.009441 seconds
-  Import took 0.011154 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_door.png using Guid(013a68eb7a91e35438e67ab3f74e0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6264bdf1cd431514e2cc49afa29ed1ec') in 0.088654 seconds
+  Import took 0.090611 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png
-  artifactKey: Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png using Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10be2530919f67c632ee623419324cb9') in 0.009157 seconds
-  Import took 0.010751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.845030 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/Textures/T_blades.png
-  artifactKey: Guid(36e8f95f7ba7bf7488f57b3c34987476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_blades.png using Guid(36e8f95f7ba7bf7488f57b3c34987476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a36156b99c2d45151115b6ff0404812') in 0.008659 seconds
-  Import took 0.010259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/Textures/T_door.png
-  artifactKey: Guid(013a68eb7a91e35438e67ab3f74e0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_door.png using Guid(013a68eb7a91e35438e67ab3f74e0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd37c76f91feee6100b8dd8913516b79') in 0.011520 seconds
-  Import took 0.013218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
+  Time since last request: 0.000209 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png
   artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f929c010696b6ed35c618ccb500fdd') in 0.010143 seconds
-  Import took 0.011717 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52aebbde5fd278b4f13ad63b6f04944') in 0.012931 seconds
+  Import took 0.014898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
+  Time since last request: 0.000198 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures/T_wallspikes.png
   artifactKey: Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_wallspikes.png using Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8777d31026facc0872b0d2863e87cd0c') in 0.007966 seconds
-  Import took 0.009740 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_wallspikes.png using Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caecb3da8636f93fd7e744faa410fd1a') in 0.012646 seconds
+  Import took 0.014562 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
+  Time since last request: 0.000245 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures/T_platforms.png
   artifactKey: Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_platforms.png using Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27b8a6ad8ee612fa52a5246d5f84f4f') in 0.009424 seconds
-  Import took 0.011059 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_platforms.png using Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6845cc1ab015e907d1e92d7ee70bfce') in 0.012674 seconds
+  Import took 0.014802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
+  Time since last request: 0.000269 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures/T_key.png
   artifactKey: Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_key.png using Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c386daaa92b798c4bebf56dee5bafb') in 0.012995 seconds
-  Import took 0.014428 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_key.png using Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1495a6ffb7a9bb504f0282d7c27d95b') in 0.015199 seconds
+  Import took 0.017363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png
+  artifactKey: Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png using Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03a8c44b99aad0b00b2b6f6e88ee415') in 0.013280 seconds
+  Import took 0.015272 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000244 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png
-  artifactKey: Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png using Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4301e77e8f56e7686bb12a5a4f99794d') in 0.008089 seconds
-  Import took 0.009783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
   path: Assets/Platformer/Enviroment/Interactive/Textures/T_rail.png
   artifactKey: Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_rail.png using Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4d81e05d0c805c0fb311429058226d') in 0.008278 seconds
-  Import took 0.009919 seconds .
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_rail.png using Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd9afffc1cee8dd6487af044485eb89') in 0.013295 seconds
+  Import took 0.015387 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.570593 seconds.
-  path: Assets/Platformer/Enviroment/Static
-  artifactKey: Guid(1e13827bf93c0944d82dc17f1a8126bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Static using Guid(1e13827bf93c0944d82dc17f1a8126bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe43482bdc00cc3bbe4d375669542e7') in 0.007429 seconds
-  Import took 0.009292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.678981 seconds.
-  path: Assets/_Developers/jackh
-  artifactKey: Guid(084fe10c4079ce94ebd1c92c8ebe94c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Developers/jackh using Guid(084fe10c4079ce94ebd1c92c8ebe94c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5274f0061697cc04949accf0ba5e1ce') in 0.005647 seconds
-  Import took 0.007143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.528451 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/Textures/T_blades.png
-  artifactKey: Guid(36e8f95f7ba7bf7488f57b3c34987476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_blades.png using Guid(36e8f95f7ba7bf7488f57b3c34987476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea9d5f09548031887b9d073a41694db') in 0.020102 seconds
-  Import took 0.021875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.456584 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/Blade
-  artifactKey: Guid(473892215f8d58c448f08b9451ca341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Blade using Guid(473892215f8d58c448f08b9451ca341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402e5a14802d093eac302a64a7b778c0') in 0.005924 seconds
-  Import took 0.007513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 237.763927 seconds.
-  path: Assets/Platformer/Enviroment/Interactive/Textures/T_door.png
-  artifactKey: Guid(013a68eb7a91e35438e67ab3f74e0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_door.png using Guid(013a68eb7a91e35438e67ab3f74e0512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf12b499c0661d84cd9be25ad29e3a5d') in 0.058994 seconds
-  Import took 0.060803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.686911 seconds.
-  path: Assets/Platformer/Enviroment/New Folder
-  artifactKey: Guid(1defa5d7c58fbc74c84d22627e444b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/New Folder using Guid(1defa5d7c58fbc74c84d22627e444b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e37c48f62e80296dd9eaaa4ec31704') in 0.005959 seconds
-  Import took 0.007450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.663589 seconds.
+  Time since last request: 1.296616 seconds.
   path: Assets/Platformer/Enviroment/Backgrounds
   artifactKey: Guid(1defa5d7c58fbc74c84d22627e444b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds using Guid(1defa5d7c58fbc74c84d22627e444b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edd85e236ef616b45fa8316249c0ece') in 0.005692 seconds
-  Import took 0.007260 seconds .
+Start importing Assets/Platformer/Enviroment/Backgrounds using Guid(1defa5d7c58fbc74c84d22627e444b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d5d5c1a41d53594cc98bbc94078090') in 0.007009 seconds
+  Import took 0.009056 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.170748 seconds.
+  Time since last request: 0.573954 seconds.
   path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG
   artifactKey: Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG using Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf2c3a0b7fe6f6fd7849a85f05a1380') in 0.006431 seconds
-  Import took 0.008109 seconds .
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG using Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614c98ded87bb5bad89256522fd6193b') in 0.006847 seconds
+  Import took 0.009055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.060585 seconds.
+  Time since last request: 0.054002 seconds.
   path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Bush.png
   artifactKey: Guid(2f7d8b44935b0064aa2c3caabf1b8467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Bush.png using Guid(2f7d8b44935b0064aa2c3caabf1b8467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68063836c7aadcf667373515bb94c503') in 0.009555 seconds
-  Import took 0.011542 seconds .
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Bush.png using Guid(2f7d8b44935b0064aa2c3caabf1b8467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5ed8a9f474cc0c69d16ec8edf8f66f') in 0.011534 seconds
+  Import took 0.013739 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
+  Time since last request: 0.000295 seconds.
   path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ShowCasee.gif
   artifactKey: Guid(3704c551a02ee6942b051a70353f636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ShowCasee.gif using Guid(3704c551a02ee6942b051a70353f636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7cfd0351a3de7567d4b8125bc541ae') in 0.010428 seconds
-  Import took 0.011875 seconds .
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ShowCasee.gif using Guid(3704c551a02ee6942b051a70353f636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f58ad3b455a4cdac98e8d2f8f87ddc') in 0.019282 seconds
+  Import took 0.021477 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
+  Time since last request: 0.000222 seconds.
   path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Ground.png
   artifactKey: Guid(4501276e0a14f9743a7ca079aa85a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Ground.png using Guid(4501276e0a14f9743a7ca079aa85a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccdcf6055707da33d23b70a7da1c661') in 0.008473 seconds
-  Import took 0.009963 seconds .
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Ground.png using Guid(4501276e0a14f9743a7ca079aa85a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dbb9b2a54e47fac0d10667c9239723') in 0.014315 seconds
+  Import took 0.016361 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
+  Time since last request: 0.000246 seconds.
   path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/mountains.png
   artifactKey: Guid(dc7a6366aa3d32044a719de128d15874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/mountains.png using Guid(dc7a6366aa3d32044a719de128d15874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6944d65574c05582732d0416d3b3c4') in 0.011726 seconds
-  Import took 0.013473 seconds .
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/mountains.png using Guid(dc7a6366aa3d32044a719de128d15874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1450158057ab5591f767d69c9ef628f1') in 0.014366 seconds
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ForeGround_Tree.png
+  artifactKey: Guid(0e6c82ad188c6fd4cb35515a2604d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ForeGround_Tree.png using Guid(0e6c82ad188c6fd4cb35515a2604d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b63c87e9071709d54b9a2a6741bbc51') in 0.012561 seconds
+  Import took 0.014566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Sign.png
+  artifactKey: Guid(c772a94c3d9704c46a34cc93ca49bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Sign.png using Guid(c772a94c3d9704c46a34cc93ca49bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f0490466abebef86f8d3ceee03fd69') in 0.012667 seconds
+  Import took 0.014659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ThumbNail.jpg
+  artifactKey: Guid(3a8a886bf77fed24fa1e1bb3de04cc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ThumbNail.jpg using Guid(3a8a886bf77fed24fa1e1bb3de04cc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ef502512bfa7a548c991fe0ae20f91') in 0.022829 seconds
+  Import took 0.024851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Cloud.png
+  artifactKey: Guid(472e25b2be12dfa42afeaaab44e48557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Cloud.png using Guid(472e25b2be12dfa42afeaaab44e48557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e824e703708657ea7d4d74a35ff8f839') in 0.011926 seconds
+  Import took 0.013817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.218525 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves
+  artifactKey: Guid(04a8923ebc42d4e46b602c2410c39980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves using Guid(04a8923ebc42d4e46b602c2410c39980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274deaf19db42980e5b39c033efe4ba0') in 0.007730 seconds
+  Import took 0.009790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036688 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves.gif
+  artifactKey: Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves.gif using Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad93365eb91f00d1fa2911e2ef83c99') in 0.012939 seconds
+  Import took 0.015178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves6.png
+  artifactKey: Guid(86ca19562a1f4784abd753c2cd60393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves6.png using Guid(86ca19562a1f4784abd753c2cd60393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1832144701af40795491a7d3e5cd1b79') in 0.014994 seconds
+  Import took 0.016858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves8.png
+  artifactKey: Guid(f0059477f68424740ad7678bdd304a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves8.png using Guid(f0059477f68424740ad7678bdd304a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9cbf690c38342dd55a64b31275f9e6') in 0.018777 seconds
+  Import took 0.020698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves1.png
+  artifactKey: Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves1.png using Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ff986d277498dd0d7912efe9f2b8d2') in 0.013116 seconds
+  Import took 0.015474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves2.png
+  artifactKey: Guid(c735654b90d4bdd4f994053b4d46ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves2.png using Guid(c735654b90d4bdd4f994053b4d46ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ee613ee818ed146140468d9762edbd') in 0.012994 seconds
+  Import took 0.015277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves3.png
+  artifactKey: Guid(70ba6c624a6c1e64ebd86463d7639c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves3.png using Guid(70ba6c624a6c1e64ebd86463d7639c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d840829ab53d4ae07a9ed5041e2c10') in 0.013358 seconds
+  Import took 0.015558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves7.png
+  artifactKey: Guid(8ba1670b0a114fc4a845f1c13a423b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves7.png using Guid(8ba1670b0a114fc4a845f1c13a423b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4131e9f25b74fe8179f5d858a89dde63') in 0.014549 seconds
+  Import took 0.016767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves5.png
+  artifactKey: Guid(b4ce6293c8b5199498b41a7d72749fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves5.png using Guid(b4ce6293c8b5199498b41a7d72749fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59c22c08e8587a2bca35700a578d7be') in 0.018126 seconds
+  Import took 0.020224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves4.png
+  artifactKey: Guid(e5a3162aa26161c478282f579deba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves4.png using Guid(e5a3162aa26161c478282f579deba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3265e151fee2568485812da72cb4723') in 0.015103 seconds
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.055675 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves.gif
+  artifactKey: Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves.gif using Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7f5313534819346e5745186c9cdeb2') in 0.019620 seconds
+  Import took 0.021913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves6.png
+  artifactKey: Guid(86ca19562a1f4784abd753c2cd60393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves6.png using Guid(86ca19562a1f4784abd753c2cd60393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e99a4fcddc009221277ee86c459caea') in 0.013199 seconds
+  Import took 0.015180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves8.png
+  artifactKey: Guid(f0059477f68424740ad7678bdd304a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves8.png using Guid(f0059477f68424740ad7678bdd304a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632798e0cf142bfdb39df1e7b6b75a3c') in 0.023098 seconds
+  Import took 0.025178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves1.png
+  artifactKey: Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves1.png using Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2f12111a8fd08712f2057e0449abe2') in 0.015633 seconds
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves2.png
+  artifactKey: Guid(c735654b90d4bdd4f994053b4d46ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves2.png using Guid(c735654b90d4bdd4f994053b4d46ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5afac9f76faf84535bbdff8b4f2bbbe') in 0.013536 seconds
+  Import took 0.015696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves3.png
+  artifactKey: Guid(70ba6c624a6c1e64ebd86463d7639c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves3.png using Guid(70ba6c624a6c1e64ebd86463d7639c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf755e326cdaff2065fbcb47ec32f8e5') in 0.016053 seconds
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves7.png
+  artifactKey: Guid(8ba1670b0a114fc4a845f1c13a423b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves7.png using Guid(8ba1670b0a114fc4a845f1c13a423b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6af89051e4aba145cc69c3704b6306') in 0.013375 seconds
+  Import took 0.015471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves5.png
+  artifactKey: Guid(b4ce6293c8b5199498b41a7d72749fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves5.png using Guid(b4ce6293c8b5199498b41a7d72749fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828c7bfa6430dc31c0b91ca59df32c8a') in 0.014262 seconds
+  Import took 0.016314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves4.png
+  artifactKey: Guid(e5a3162aa26161c478282f579deba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Animated_Leaves/Leaves4.png using Guid(e5a3162aa26161c478282f579deba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f45925fd21fe1325747326556c944f') in 0.015615 seconds
+  Import took 0.017715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 295.911348 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple
+  artifactKey: Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple using Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4527aa54204e260f86d10f9f31467285') in 0.008151 seconds
+  Import took 0.010511 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 1.681400 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.491800 ms  DeleteObjects: 0.017900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1536.707341 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/T_bush.png
+  artifactKey: Guid(2f7d8b44935b0064aa2c3caabf1b8467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/T_bush.png using Guid(2f7d8b44935b0064aa2c3caabf1b8467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c636a0763b0a911835c148c80947b8') in 0.048732 seconds
+  Import took 0.050994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.300361 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/T_cloud.png
+  artifactKey: Guid(472e25b2be12dfa42afeaaab44e48557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/T_cloud.png using Guid(472e25b2be12dfa42afeaaab44e48557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393b989d8bb8221f4fa17c9752db2f71') in 0.014762 seconds
+  Import took 0.017058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.606260 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/T_sign.png
+  artifactKey: Guid(c772a94c3d9704c46a34cc93ca49bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/T_sign.png using Guid(c772a94c3d9704c46a34cc93ca49bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f69b84acfde34f186f03421255d6e8a') in 0.011516 seconds
+  Import took 0.013679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.447810 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/PARALAX.aseprite
+  artifactKey: Guid(44c2e0d0e63269d47bdaa2bf096ecf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/PARALAX.aseprite using Guid(44c2e0d0e63269d47bdaa2bf096ecf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59bd52ecf10cd04b0d322b3a3a75d0a') in 0.009228 seconds
+  Import took 0.011338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.076464 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/Tmountains.png
+  artifactKey: Guid(dc7a6366aa3d32044a719de128d15874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/Tmountains.png using Guid(dc7a6366aa3d32044a719de128d15874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e03e536f17f42b255d9b9ddb8c0785d') in 0.017042 seconds
+  Import took 0.019595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.225558 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/T_mountains.png
+  artifactKey: Guid(dc7a6366aa3d32044a719de128d15874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/T_mountains.png using Guid(dc7a6366aa3d32044a719de128d15874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49594bf50637ce18a9cff19a01f2eda9') in 0.013864 seconds
+  Import took 0.016188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.971997 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/T_ground.png
+  artifactKey: Guid(4501276e0a14f9743a7ca079aa85a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/T_ground.png using Guid(4501276e0a14f9743a7ca079aa85a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4102e5009d2825b720001b1fd5d52ba4') in 0.016515 seconds
+  Import took 0.018888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 756.540415 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/purple/T_foreground.png
+  artifactKey: Guid(0e6c82ad188c6fd4cb35515a2604d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/purple/T_foreground.png using Guid(0e6c82ad188c6fd4cb35515a2604d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9349ba6faf9c94615e3cdcc387393e82') in 0.017167 seconds
+  Import took 0.019641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.563211 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snwoy
+  artifactKey: Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snwoy using Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79164cb08869640d495c7f8745ebc90b') in 0.006855 seconds
+  Import took 0.008912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.710315 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy
+  artifactKey: Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy using Guid(af4ff4684eb575e43b59511f50b2dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c40feeeb7f5d80eb881347f6a7308e') in 0.007932 seconds
+  Import took 0.009956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13232.101269 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/t_leaves1.gif
+  artifactKey: Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/t_leaves1.gif using Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037fc8a4ed41a58418d7816efa26834a') in 0.361163 seconds
+  Import took 0.515816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.965020 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/t_leaves1.png
+  artifactKey: Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/t_leaves1.png using Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36650decfca112167a220b328389f00') in 0.016445 seconds
+  Import took 0.019173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.850413 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/leaves gif.gif
+  artifactKey: Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/leaves gif.gif using Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7666831cf7757560eda139d3aae1ac') in 0.020330 seconds
+  Import took 0.022474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.115859 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/leaves.gif
+  artifactKey: Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/leaves.gif using Guid(9dff64dc886faaf49828939dace91c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0fc703fc5dd095fae83e8c27ee0ab0') in 0.021425 seconds
+  Import took 0.023645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.958715 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves2.png
+  artifactKey: Guid(c735654b90d4bdd4f994053b4d46ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves2.png using Guid(c735654b90d4bdd4f994053b4d46ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2e812665026ab60dc3e22cffdcd479') in 0.018817 seconds
+  Import took 0.021226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.776050 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves1.png
+  artifactKey: Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves1.png using Guid(d529e8e82e5166a4ab94967f8e67f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41272d89ab5a8aef5dbace19f90e05b8') in 0.025701 seconds
+  Import took 0.028044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.474580 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves3.png
+  artifactKey: Guid(70ba6c624a6c1e64ebd86463d7639c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves3.png using Guid(70ba6c624a6c1e64ebd86463d7639c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665a734019e3695c876c3d80296d5c0f') in 0.017821 seconds
+  Import took 0.020011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.195387 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves4.png
+  artifactKey: Guid(e5a3162aa26161c478282f579deba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves4.png using Guid(e5a3162aa26161c478282f579deba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca128e3abe8c69e8aa3796e2efb2916') in 0.019774 seconds
+  Import took 0.022125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.280759 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves5.png
+  artifactKey: Guid(b4ce6293c8b5199498b41a7d72749fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves5.png using Guid(b4ce6293c8b5199498b41a7d72749fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8acd71ee84fd8be172733769edf4bc') in 0.015322 seconds
+  Import took 0.017636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.177598 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves6.png
+  artifactKey: Guid(86ca19562a1f4784abd753c2cd60393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves6.png using Guid(86ca19562a1f4784abd753c2cd60393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1237e037baebb64cd17fcdd77e9f57a1') in 0.020402 seconds
+  Import took 0.022795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.522074 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves7.png
+  artifactKey: Guid(8ba1670b0a114fc4a845f1c13a423b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves7.png using Guid(8ba1670b0a114fc4a845f1c13a423b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10d99998ddfdada6f78048f5b3cf912') in 0.015309 seconds
+  Import took 0.017571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.409612 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves8.png
+  artifactKey: Guid(f0059477f68424740ad7678bdd304a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated_Leaves/T_leaves8.png using Guid(f0059477f68424740ad7678bdd304a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec1e6e7a6c208cdc8a135015fba1e3f') in 0.015620 seconds
+  Import took 0.017940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.581422 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Leaves
+  artifactKey: Guid(04a8923ebc42d4e46b602c2410c39980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Leaves using Guid(04a8923ebc42d4e46b602c2410c39980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befdd6e5583c7dfaf1469af474cc79c0') in 0.007216 seconds
+  Import took 0.009444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.683098 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated
+  artifactKey: Guid(04a8923ebc42d4e46b602c2410c39980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Snowy/Animated using Guid(04a8923ebc42d4e46b602c2410c39980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48472cc93743578b2c015f1bccd5cff4') in 0.006725 seconds
+  Import took 0.008792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.964541 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png
+  artifactKey: Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_gem.png using Guid(2343d1efd5c1520489b29c884cce1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a01c82a2c860cf2090db300ecb7e5d') in 0.020680 seconds
+  Import took 0.023000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_key.png
+  artifactKey: Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_key.png using Guid(a18b3e9c43393aa46983144c79c7dc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c56c85b4bcbe683b61fd1531caa61f') in 0.032383 seconds
+  Import took 0.034344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.316207 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_platforms.png
+  artifactKey: Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_platforms.png using Guid(5702e4fb850ea2948884b22fa5f945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddc1f262926a6e746307a0d7e8ab76a') in 0.037194 seconds
+  Import took 0.039797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.976311 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_rail.png
+  artifactKey: Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_rail.png using Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75edbaa1c738f58351e41a68e1696455') in 0.041540 seconds
+  Import took 0.043980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.186676 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_rail.png
+  artifactKey: Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_rail.png using Guid(efb29310e701e8142aee023503cc2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b70a64e24f5375e717bce131aa2baf') in 0.022458 seconds
+  Import took 0.024702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.073124 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png
+  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeaa5c22844f3b711c6aec483f49412') in 0.017960 seconds
+  Import took 0.020190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.476012 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png
+  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff655975ba0122e1f7877bd53725b0bb') in 0.019882 seconds
+  Import took 0.022139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.471896 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png
+  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef03bc4e7f87d538591e114e598c261') in 0.022867 seconds
+  Import took 0.025101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.476662 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png
+  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d59a9d602babe8c844645942bd9db0d') in 0.021049 seconds
+  Import took 0.023208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.408631 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png
+  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da3c4cb9c6bab150645566f36845862') in 0.031716 seconds
+  Import took 0.034023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.035921 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png
+  artifactKey: Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_saw.png using Guid(00d4c10f61ae23a4ab96b80391537b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21d42298568f05d0d148765b34360d1') in 0.029144 seconds
+  Import took 0.031596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 392.166296 seconds.
+  path: Assets/Platformer/Enviroment/Interactive/Textures/T_wallspikes.png
+  artifactKey: Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Interactive/Textures/T_wallspikes.png using Guid(cb269a87b94d4924fac021d0c58bbaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf31612a5fb5c194a2c883d1485ef4c') in 0.121380 seconds
+  Import took 0.124359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 439.287916 seconds.
+  path: Assets/Platformer/Enviroment/Tilesets
+  artifactKey: Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Tilesets using Guid(fa9a5fa8d6b809243af506d6e73b548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc26938799d71e71617cd74fe00bb940') in 0.013501 seconds
+  Import took 0.017263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.099757 seconds.
+  path: Assets/Platformer/Enviroment/Tilesets/Textures
+  artifactKey: Guid(57b832c17f7e5444e85dd70986752546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Tilesets/Textures using Guid(57b832c17f7e5444e85dd70986752546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbda08bea79b85de4f3a3894d992317') in 0.007849 seconds
+  Import took 0.009961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055006 seconds.
+  path: Assets/Platformer/Enviroment/Tilesets/Textures/T_factory.png
+  artifactKey: Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Tilesets/Textures/T_factory.png using Guid(2fc12237b8a9e2646827758d95cd1f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa57eb14b29572261fcc760dbceffd93') in 0.027137 seconds
+  Import took 0.030489 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000187 seconds.
-  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ForeGround_Tree.png
-  artifactKey: Guid(0e6c82ad188c6fd4cb35515a2604d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ForeGround_Tree.png using Guid(0e6c82ad188c6fd4cb35515a2604d7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc21789b516763644b9a4d305098fba') in 0.012928 seconds
-  Import took 0.014551 seconds .
+  path: Assets/Platformer/Enviroment/Tilesets/Textures/T_grassland.png
+  artifactKey: Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Tilesets/Textures/T_grassland.png using Guid(49f405f0d9f3d294d950fae87f5ffd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2d812f5cb3633d3ffad94cf9646efc') in 0.030671 seconds
+  Import took 0.032550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.574202 seconds.
+  path: Assets/Platformer/Core
+  artifactKey: Guid(f8a5eb56607bb924f8b97e2ef0cff8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Core using Guid(f8a5eb56607bb924f8b97e2ef0cff8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246835d65f972a8613dae4fbca20c4af') in 0.058561 seconds
+  Import took 0.062439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.481367 seconds.
+  path: Assets/Platformer/Effects
+  artifactKey: Guid(daffe7836e7447243832b18f1e11a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Effects using Guid(daffe7836e7447243832b18f1e11a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9c10015220a6c2dd45557ee3235663') in 0.012895 seconds
+  Import took 0.016824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.464269 seconds.
+  path: Assets/Platformer/_Levels/Menus
+  artifactKey: Guid(4b12714190920d741ac4ce57aed0c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/_Levels/Menus using Guid(4b12714190920d741ac4ce57aed0c28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b508e12b62198600695db9144bf0d') in 0.007839 seconds
+  Import took 0.011192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 717.351384 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder
+  artifactKey: Guid(a108abe8f9740434389842ab6b6cb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder using Guid(a108abe8f9740434389842ab6b6cb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cfc0af90d988b01e197e5cdc98c665') in 0.015113 seconds
+  Import took 0.018730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.747305 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Forest
+  artifactKey: Guid(a108abe8f9740434389842ab6b6cb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Forest using Guid(a108abe8f9740434389842ab6b6cb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe46f0de7f4965b00000bec0292045a') in 0.017590 seconds
+  Import took 0.026439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.397351 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field
+  artifactKey: Guid(a108abe8f9740434389842ab6b6cb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field using Guid(a108abe8f9740434389842ab6b6cb173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91fd22774fb46ad88268f0db3ae8b0f') in 0.009389 seconds
+  Import took 0.013592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.670942 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 1.png
+  artifactKey: Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 1.png using Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee840e1140dd625c2e01ea9e06ad3202') in 0.066396 seconds
+  Import took 0.069581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 2.png
+  artifactKey: Guid(84be95385bc7b9847aab0c789d37e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 2.png using Guid(84be95385bc7b9847aab0c789d37e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9223795083e9aee4d98087c6a79725') in 0.024158 seconds
+  Import took 0.026600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 4.png
+  artifactKey: Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 4.png using Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee13022abb1cccba797a8d83478e138') in 0.038483 seconds
+  Import took 0.047134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 5.png
+  artifactKey: Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 5.png using Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c1843e97f2b4b3b5a50b97e9724c62') in 0.017640 seconds
+  Import took 0.022161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 3.png
+  artifactKey: Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 3.png using Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1aa57b569934b9049490a1264f603c') in 0.015337 seconds
+  Import took 0.017558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 6.png
+  artifactKey: Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 6.png using Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331fe88142c1d659a596eeea729536e0') in 0.016297 seconds
+  Import took 0.019445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.738733 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 1.png
+  artifactKey: Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 1.png using Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95447ebc4aad69402ce5e0d003365381') in 0.018072 seconds
+  Import took 0.021015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 2.png
+  artifactKey: Guid(84be95385bc7b9847aab0c789d37e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 2.png using Guid(84be95385bc7b9847aab0c789d37e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3eecf7200bd6c03a00492a2c7dc9f5') in 0.021250 seconds
+  Import took 0.024084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 4.png
+  artifactKey: Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 4.png using Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b4141878dc5abdaa23c206698b1c64') in 0.016389 seconds
+  Import took 0.019689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 5.png
+  artifactKey: Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 5.png using Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3830a29b44fc580431484e4d5e33f09b') in 0.030120 seconds
+  Import took 0.034623 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000197 seconds.
-  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Sign.png
-  artifactKey: Guid(c772a94c3d9704c46a34cc93ca49bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Sign.png using Guid(c772a94c3d9704c46a34cc93ca49bad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6d3148b254153c339c7fa5ac891e5f') in 0.009410 seconds
-  Import took 0.010973 seconds .
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 3.png
+  artifactKey: Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 3.png using Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388ceb38fd9d9d82be7deb6b1d0a7a63') in 0.023960 seconds
+  Import took 0.026285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ThumbNail.jpg
-  artifactKey: Guid(3a8a886bf77fed24fa1e1bb3de04cc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/ThumbNail.jpg using Guid(3a8a886bf77fed24fa1e1bb3de04cc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8a136137770c012f8a126b46669eb5') in 0.015693 seconds
-  Import took 0.017316 seconds .
+  Time since last request: 0.002933 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 6.png
+  artifactKey: Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 6.png using Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab40ae56e13aafe25d75c5986c346066') in 0.098118 seconds
+  Import took 0.100561 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Cloud.png
-  artifactKey: Guid(472e25b2be12dfa42afeaaab44e48557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Platformer/Enviroment/Backgrounds/Purple_Lex_BG/Cloud.png using Guid(472e25b2be12dfa42afeaaab44e48557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5173f4add7024f4a184a6083d41b8445') in 0.009188 seconds
-  Import took 0.011030 seconds .
+  Time since last request: 0.000188 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/layer 3.png
+  artifactKey: Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/layer 3.png using Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388ceb38fd9d9d82be7deb6b1d0a7a63') in 0.050109 seconds
+  Import took 0.052379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.757468 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_back.png
+  artifactKey: Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_back.png using Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2d10ee72c3fe9ee41f347eada16a30') in 0.077483 seconds
+  Import took 0.081759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.859577 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_sky.png
+  artifactKey: Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_sky.png using Guid(826a4e434de35be45893eb1c5f8ab33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc5856dd79fe5c1da785df883c42b14') in 0.015683 seconds
+  Import took 0.018907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.196942 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_foreground.png
+  artifactKey: Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_foreground.png using Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a526f61ba8c0917ed5b6bb0d86e05d56') in 0.035122 seconds
+  Import took 0.043257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.532227 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_1foreground.png
+  artifactKey: Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_1foreground.png using Guid(68d6d497a7827d245990c48167454287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ad5dc6c91bf4a79dfc6ea355f4b6d5') in 0.026052 seconds
+  Import took 0.030435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.532152 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_2highbush.png
+  artifactKey: Guid(84be95385bc7b9847aab0c789d37e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_2highbush.png using Guid(84be95385bc7b9847aab0c789d37e5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a774d24fbc931fdf504e58d7794b87b') in 0.019696 seconds
+  Import took 0.022462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.524538 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_3middlebush.png
+  artifactKey: Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_3middlebush.png using Guid(5e304f0fe5019c14fbb94f1105fb27db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca26e97050e905e2114003fed6565f92') in 0.017166 seconds
+  Import took 0.020138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.377482 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_lowbush.png
+  artifactKey: Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_lowbush.png using Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124e67db892d5e1d1b893da3c3bafe27') in 0.021438 seconds
+  Import took 0.023894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.835449 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_5.png
+  artifactKey: Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_5.png using Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e920a0601ac882b71bebde35af30ef') in 0.035193 seconds
+  Import took 0.039768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.305366 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_5shurbs.png
+  artifactKey: Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_5shurbs.png using Guid(8a3719ca4ddea2d498bf0230dd7304c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d0349a43f265367dbb015f8e7897ac') in 0.020976 seconds
+  Import took 0.025708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.867660 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Field/T_4lowbush.png
+  artifactKey: Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Field/T_4lowbush.png using Guid(205ff61ad2d5ad4498c239e7bd9998d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f7d3f0e7dff9692145d69ec35daf6') in 0.026772 seconds
+  Import took 0.031348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.936895 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder
+  artifactKey: Guid(3b7d527d279e1ea4f893fddcfa8d0347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder using Guid(3b7d527d279e1ea4f893fddcfa8d0347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b814a5ea70c2303e58cd289ec90a6b') in 0.003891 seconds
+  Import took 0.008090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.670960 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 1.png
+  artifactKey: Guid(eb3376c33ce56c9499987ba5af2d5576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 1.png using Guid(eb3376c33ce56c9499987ba5af2d5576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba1f14db0b61e3d1bae7f154eafb3a4') in 0.013822 seconds
+  Import took 0.016122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 5.png
+  artifactKey: Guid(f0a1078779439f248b03b8c48e205f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 5.png using Guid(f0a1078779439f248b03b8c48e205f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620d2136796d06536dc5474b288d1054') in 0.018163 seconds
+  Import took 0.020296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 3.png
+  artifactKey: Guid(25bac77c5ea4ef1429386c0a90227043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 3.png using Guid(25bac77c5ea4ef1429386c0a90227043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042b16531fa696dd5f82f054047b2de9') in 0.017554 seconds
+  Import took 0.019845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 2.png
+  artifactKey: Guid(6a26fabfa5dec9c46bec8d2ec70842ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder/layer 2.png using Guid(6a26fabfa5dec9c46bec8d2ec70842ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed717a52d40389b391dde908fbd8cec') in 0.014035 seconds
+  Import took 0.017569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.464292 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset
+  artifactKey: Guid(3b7d527d279e1ea4f893fddcfa8d0347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset using Guid(3b7d527d279e1ea4f893fddcfa8d0347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706b226bc1bda4f30ab5175c6cf03fba') in 0.112240 seconds
+  Import took 0.137179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.451339 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 1.png
+  artifactKey: Guid(eb3376c33ce56c9499987ba5af2d5576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 1.png using Guid(eb3376c33ce56c9499987ba5af2d5576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd062099750ff4efc8a119bf910bb7e') in 0.049472 seconds
+  Import took 0.053269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 5.png
+  artifactKey: Guid(f0a1078779439f248b03b8c48e205f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 5.png using Guid(f0a1078779439f248b03b8c48e205f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc98ab5bac06b1bfb49830ba45f6e17') in 0.073236 seconds
+  Import took 0.075324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 3.png
+  artifactKey: Guid(25bac77c5ea4ef1429386c0a90227043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 3.png using Guid(25bac77c5ea4ef1429386c0a90227043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85880596f0cd44367900d77dc684a93') in 0.056096 seconds
+  Import took 0.058306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 2.png
+  artifactKey: Guid(6a26fabfa5dec9c46bec8d2ec70842ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/layer 2.png using Guid(6a26fabfa5dec9c46bec8d2ec70842ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a2260cd51b34aac4cf466a51677609') in 0.048497 seconds
+  Import took 0.054529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.929306 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/T_sky.png
+  artifactKey: Guid(eb3376c33ce56c9499987ba5af2d5576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/T_sky.png using Guid(eb3376c33ce56c9499987ba5af2d5576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6807561033fbba3c476d9fd95b660a26') in 0.021666 seconds
+  Import took 0.023955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.058915 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/T_foreground.png
+  artifactKey: Guid(f0a1078779439f248b03b8c48e205f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/T_foreground.png using Guid(f0a1078779439f248b03b8c48e205f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405d7e2344f3c70ebee8e06b44cf7c6d') in 0.017708 seconds
+  Import took 0.021342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.585890 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/T_middleground.png
+  artifactKey: Guid(25bac77c5ea4ef1429386c0a90227043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/T_middleground.png using Guid(25bac77c5ea4ef1429386c0a90227043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9a426df2a635ced20d7fe0faac6648') in 0.026808 seconds
+  Import took 0.031479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.679982 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Sunset/T_background.png
+  artifactKey: Guid(6a26fabfa5dec9c46bec8d2ec70842ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Sunset/T_background.png using Guid(6a26fabfa5dec9c46bec8d2ec70842ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e310759a987b3eed2019312398aa18') in 0.026090 seconds
+  Import took 0.029502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.535738 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder
+  artifactKey: Guid(60b7b20a628ab5a4c924d8c85f94d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder using Guid(60b7b20a628ab5a4c924d8c85f94d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468dfb9591a62f54f86f825e01411468') in 0.003501 seconds
+  Import took 0.007144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.590838 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp
+  artifactKey: Guid(60b7b20a628ab5a4c924d8c85f94d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp using Guid(60b7b20a628ab5a4c924d8c85f94d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28b73e5ebacbcfaa5f29a1730847f26') in 0.008515 seconds
+  Import took 0.010740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.938724 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 1.png
+  artifactKey: Guid(dd0e653292b5fff488165b1f8fdef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 1.png using Guid(dd0e653292b5fff488165b1f8fdef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d29a0a6b0235c145c36d21121a35c9') in 0.023959 seconds
+  Import took 0.026338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 4.png
+  artifactKey: Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 4.png using Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f1e3d3b2e32bf3315446dcafa48a16') in 0.026820 seconds
+  Import took 0.029520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 3.png
+  artifactKey: Guid(1e9ca4a6110ed2c409787516978e1ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 3.png using Guid(1e9ca4a6110ed2c409787516978e1ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec355a0523236ad2510f4d5c0cfade1b') in 0.049807 seconds
+  Import took 0.052315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 2.png
+  artifactKey: Guid(7d49e92b43f5b6f4483371acbb9c6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 2.png using Guid(7d49e92b43f5b6f4483371acbb9c6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865eb0005482a438c13b0d79d14ad101') in 0.023206 seconds
+  Import took 0.031713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.731601 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 1.png
+  artifactKey: Guid(dd0e653292b5fff488165b1f8fdef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 1.png using Guid(dd0e653292b5fff488165b1f8fdef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30c677fe24a809720473663142ebd30') in 0.044690 seconds
+  Import took 0.062482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 4.png
+  artifactKey: Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 4.png using Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e686e6dc052548ba1f56ac0ed72c560b') in 0.036906 seconds
+  Import took 0.039038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 3.png
+  artifactKey: Guid(1e9ca4a6110ed2c409787516978e1ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 3.png using Guid(1e9ca4a6110ed2c409787516978e1ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de7c14a35cbb73eb84492f9f82f12ee') in 0.021234 seconds
+  Import took 0.023384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 2.png
+  artifactKey: Guid(7d49e92b43f5b6f4483371acbb9c6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/layer 2.png using Guid(7d49e92b43f5b6f4483371acbb9c6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2270536990c08978850f4503c7d0030d') in 0.024217 seconds
+  Import took 0.028118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.037428 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/T_sky.png
+  artifactKey: Guid(dd0e653292b5fff488165b1f8fdef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/T_sky.png using Guid(dd0e653292b5fff488165b1f8fdef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772569b30f8ed4bd0ef166c3225d0645') in 0.016876 seconds
+  Import took 0.031295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.837633 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/T_vines.png
+  artifactKey: Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/T_vines.png using Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f84241e757feb26e84f50229b2a5889') in 0.022880 seconds
+  Import took 0.026423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.933313 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/T_background.png
+  artifactKey: Guid(7d49e92b43f5b6f4483371acbb9c6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/T_background.png using Guid(7d49e92b43f5b6f4483371acbb9c6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedb35f0c25cfd476cb556a6fca70996') in 0.019351 seconds
+  Import took 0.022944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.184570 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/Swamp/T_foreground.png
+  artifactKey: Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/Swamp/T_foreground.png using Guid(803225ec6c84ee0459ae2f49ada9f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46709ba0782361b4fdf28db4a9718b5e') in 0.016799 seconds
+  Import took 0.019477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1657.783330 seconds.
+  path: Assets/Platformer/Enviroment/Backgrounds/New Folder
+  artifactKey: Guid(75e5a11ce92e74343a05f52d3f117784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer/Enviroment/Backgrounds/New Folder using Guid(75e5a11ce92e74343a05f52d3f117784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14b5d907495bd1c96adfb2d4a6277f5') in 0.003732 seconds
+  Import took 0.006208 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
