@@ -1,12 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+//JackHK
 
 public class PlayerMovement : MonoBehaviour
 {
     // --------------Data-------------- 
-
-    [SerializeField] private LayerMask SurfaceLayer;
+    [SerializeField] private LayerMask surfaceLayer;
 
     public float walkSpeed;
     public float runSpeed;
@@ -19,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     SpriteRenderer entityRenderer;
 
     // --------------In-Built-------------- 
-
     private void Start()
     {
         entityPhysics = GetComponent<Rigidbody2D>();
@@ -39,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // --------------Functions-------------- 
-
     private void Jump()
     {
         entityAnimator.SetBool("isJumping", !IsGrounded());
@@ -62,7 +59,8 @@ public class PlayerMovement : MonoBehaviour
             entityRenderer.flipX = false;
         }
 
-        if (Mathf.Abs(entityPhysics.velocity.x) >= 6f) //d3nny
+        //run animation decided through velocity
+        if (Mathf.Abs(entityPhysics.velocity.x) >= 6f) 
         {
             entityAnimator.SetFloat("animatorSpeed", Mathf.Abs(Input.GetAxisRaw("Horizontal")) + 1); //sets 'animatorSpeed' to 2 when running
         }
@@ -71,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
             entityAnimator.SetFloat("animatorSpeed", Mathf.Abs(Input.GetAxisRaw("Horizontal"))); //sets 'animatorSpeed' to 1 when walking
         }
 
+        //sprint/powerup functionality
         if (Input.GetButton("Sprint") && !isPoweredUp) {
             state = "run";
             entityPhysics.velocity = new Vector2(entityMove.x * runSpeed * Time.deltaTime, entityPhysics.velocity.y); //movement
@@ -87,9 +86,9 @@ public class PlayerMovement : MonoBehaviour
     private bool IsGrounded()
     {
         float extraHeightTest = 0.2f; //additional raycast length for surface detection
+        RaycastHit2D rayhit = Physics2D.Raycast(entityCollider.bounds.center, Vector2.down, entityCollider.bounds.extents.y + extraHeightTest, surfaceLayer);
 
-        RaycastHit2D rayhit = Physics2D.Raycast(entityCollider.bounds.center, Vector2.down, entityCollider.bounds.extents.y + extraHeightTest, SurfaceLayer);
-#if UNITY_EDITOR
+#if UNITY_EDITOR //debugger visual ray
         Color rayColor;
         if (rayhit.collider != null)
         {

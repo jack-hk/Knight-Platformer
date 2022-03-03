@@ -3,14 +3,18 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
+//JackHK
+
 public class GameController : MonoBehaviour
 {
-    public void LoadLevel(int level) //loads the specified level
+
+    // --------------Functions-------------- 
+    public void LoadLevel(int level)
     {
         SceneManager.LoadScene(level);
     }
 
-    public void NextLevel() //loads the next chronological level
+    public void NextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
