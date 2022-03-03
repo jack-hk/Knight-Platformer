@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Platformer/_Levels/Menus/Title.unity
     guid: aee16d12c52854345861467ce1e6f138
   - enabled: 1
-    path: Assets/_Developers/jackh/Levels/TestingGrounds.unity
-    guid: 64be3f003b2b6404b83c473f1786178f
-  - enabled: 1
     path: Assets/Platformer/_Levels/Forest.unity
     guid: ba41d5917662b70439223910a20bba19
+  - enabled: 1
+    path: Assets/_Developers/jackh/Levels/TestingGrounds.unity
+    guid: 64be3f003b2b6404b83c473f1786178f
   m_configObjects: {}
