@@ -7,15 +7,20 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // --------------Data-------------- 
+    GameController common;
+    [SerializeField] private GameObject gameController;
+
+    [Header("Configuration")]
     [SerializeField] private LayerMask surfaceLayer;
 
     public float walkSpeed;
     public float runSpeed;
     public float jumpVelocity;
-    public float test;
+    public float attackDashVelocity;
 
     private bool isAttacking = false;
     private Vector2 facingDirection = Vector2.right;
+    private int lastDirection = 1;
 
     Vector2 entityMove;
     Rigidbody2D entityPhysics;
@@ -26,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
     // --------------In-Built-------------- 
     private void Start()
     {
+        common = gameController.GetComponent<GameController>();
+
         entityPhysics = GetComponent<Rigidbody2D>();
         entityCollider = GetComponent<CapsuleCollider2D>();
         entityAnimator = GetComponent<Animator>();
@@ -34,15 +41,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        int runtimeSeconds = runtimeSeconds + 1; //rename
         Move("walk");
-        Attack();
     }
-    private void Update()
+    public void Update()
     {
         entityMove = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Jump();
-        
+        Attack();
     }
 
     // --------------Functions-------------- 
@@ -55,23 +60,38 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    /*
-     * <params>
-     * </params>
-     * 
-     */
     private void Move(string state) //state determines animations. ex: walking, running, powered-up, etc.
     {
         bool isPoweredUp = false;
 
         //check if looking backwards
-        if (Input.GetAxisRaw("Horizontal") <= -1) 
+        if (Input.GetAxisRaw("Horizontal") == -1) 
         {
+            lastDirection = -1; 
             entityRenderer.flipX = true;
             facingDirection = Vector2.left;
-}
+        }
+        else if (Input.GetAxisRaw("Horizontal") == 0)
+        {
+            switch (lastDirection) //remember last direction
+            {
+                case -1:
+                    entityRenderer.flipX = true;
+                    facingDirection = Vector2.left;
+                    break;
+                case 0:
+                    entityRenderer.flipX = false;
+                    facingDirection = Vector2.right;
+                    break;
+                case 1:
+                    entityRenderer.flipX = false;
+                    facingDirection = Vector2.right;
+                    break;
+            }
+        }
         else
         {
+            lastDirection = 1;
             entityRenderer.flipX = false;
             facingDirection = Vector2.right;
         }
@@ -107,39 +127,53 @@ public class PlayerMovement : MonoBehaviour
     private void Attack()
     {
         //ground attack
-        if (Input.GetButton("Fire1") && !isAttacking && IsGrounded() && entityAnimator.GetInteger("isAttacking") == 0) 
+        if (Input.GetButtonDown("Fire1") && !isAttacking && IsGrounded() && entityAnimator.GetInteger("isAttacking") == 0) 
         {
             entityAnimator.SetInteger("isAttacking", 1);
-            //entityPhysics.AddForce(facingDirection * test, ForceMode2D.Impulse);
             isAttacking = true;
-#if UNITY_EDITOR 
-            Debug.Log("Player: Side Attack");
+#if UNITY_EDITOR
+            Debug.Log("Player: Ground Attack");
 #endif
         } 
-        // in-air down attack
+        // in-air attack
         else if (Input.GetButtonDown("Fire1") && !isAttacking && !IsGrounded() && entityAnimator.GetInteger("isAttacking") == 0)
         {
-            entityAnimator.SetInteger("isAttacking", 1);
+            entityAnimator.SetInteger("isAttacking", 2);
             isAttacking = true;
 #if UNITY_EDITOR
             Debug.Log("Player: Air Attack");
 #endif
         }
-       
 
-        if (isAttacking && entityAnimator.GetInteger("isAttacking") > 0)
+        if (isAttacking)
         {
-            isAttacking = false;
+            if (common.SecondsTimer(0.01f)) //timer for small increments of addforce (dashing)
+            {
+                Dash(attackDashVelocity, 20);
+            }
         }
     }
-   
+
+    private void Dash(float force, float durationInSeconds)
+    {
+            for (int i = 0; i < durationInSeconds; i++)
+            {
+                entityPhysics.AddForce(facingDirection * force);
+            }
+    }
+
+    private void EndAttackAnimation() //used in animation events
+    {
+        entityAnimator.SetInteger("isAttacking", 0);
+        isAttacking = false;
+    }
 
     private bool IsGrounded()
     {
         float extraHeightTest = 0.2f; //additional raycast length for surface detection
         RaycastHit2D rayhit = Physics2D.Raycast(entityCollider.bounds.center, Vector2.down, entityCollider.bounds.extents.y + extraHeightTest, surfaceLayer);
 
-#if UNITY_EDITOR //debugger visual ray
+#if UNITY_EDITOR //visual ray for debugging
         Color rayColor;
         if (rayhit.collider != null)
         {
