@@ -2,8 +2,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+//JackHK
+
 public class AudioController : MonoBehaviour
 {
+    // --------------Data-------------- 
     private static AudioController _instance;
     public Audio[] sounds;
     private static Dictionary<string, float> soundTimerDictionary;
@@ -15,6 +18,8 @@ public class AudioController : MonoBehaviour
             return _instance;
         }
     }
+
+    // --------------Built-In------------ 
 
     private void Awake()
     {
@@ -51,13 +56,16 @@ public class AudioController : MonoBehaviour
         // Add this part after having a theme song
         // Play('Theme');
     }
+
+    // --------------Functions-------------- 
+
     public void Play(string name)
     {
         Audio sound = Array.Find(sounds, s => s.name == name);
 
         if (sound == null)
         {
-            Debug.LogError("Sound " + name + " Not Found!");
+            Debug.LogError("Sound " + name + " could not be loaded");
             return;
         }
 
@@ -72,7 +80,7 @@ public class AudioController : MonoBehaviour
 
         if (sound == null)
         {
-            Debug.LogError("Sound " + name + " Not Found!");
+            Debug.LogError("Sound " + name + " could not be loaded");
             return;
         }
 

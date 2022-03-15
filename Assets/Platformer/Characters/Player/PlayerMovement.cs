@@ -7,8 +7,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // --------------Data-------------- 
-    GameController common;
-    [SerializeField] private GameObject gameController;
+    GameController game;
+    AnimationController animator;
+    [SerializeField] private GameObject controller;
 
     [Header("Configuration")]
     [SerializeField] private LayerMask surfaceLayer;
@@ -31,12 +32,15 @@ public class PlayerMovement : MonoBehaviour
     // --------------In-Built-------------- 
     private void Start()
     {
-        common = gameController.GetComponent<GameController>();
+        game = controller.GetComponent<GameController>();
+        animator = controller.GetComponent<AnimationController>();
 
         entityPhysics = GetComponent<Rigidbody2D>();
         entityCollider = GetComponent<CapsuleCollider2D>();
         entityAnimator = GetComponent<Animator>();
         entityRenderer = GetComponent<SpriteRenderer>();
+
+        animator.Play(Idle);
     }
 
     private void FixedUpdate()
@@ -147,7 +151,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isAttacking)
         {
-            if (common.SecondsTimer(0.01f)) //timer for small increments of addforce (dashing)
+            if (game.SecondsTimer(0.01f)) //timer for small increments of addforce (dashing)
             {
                 Dash(attackDashVelocity, 20);
             }
