@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 //JackHK
@@ -17,11 +15,14 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed;
     public float runSpeed;
     public float jumpVelocity;
+<<<<<<< HEAD
     public float attackDashVelocity;
 
     private bool isAttacking = false;
     private Vector2 facingDirection = Vector2.right;
     private int lastDirection = 1;
+=======
+>>>>>>> parent of 66f051e (Merge branch 'main' of https://github.com/jack-hk/UnityPlatformerY1S2)
 
     Vector2 entityMove;
     Rigidbody2D entityPhysics;
@@ -51,7 +52,10 @@ public class PlayerMovement : MonoBehaviour
     {
         entityMove = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Jump();
+<<<<<<< HEAD
         Attack();
+=======
+>>>>>>> parent of 66f051e (Merge branch 'main' of https://github.com/jack-hk/UnityPlatformerY1S2)
     }
 
     // --------------Functions-------------- 
@@ -64,15 +68,19 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
     private void Move(string state) //state determines animations. ex: walking, running, powered-up, etc.
+=======
+    private void Move(string state)
+>>>>>>> parent of 66f051e (Merge branch 'main' of https://github.com/jack-hk/UnityPlatformerY1S2)
     {
         bool isPoweredUp = false;
-
         //check if looking backwards
         if (Input.GetAxisRaw("Horizontal") == -1) 
         {
             lastDirection = -1; 
             entityRenderer.flipX = true;
+<<<<<<< HEAD
             facingDirection = Vector2.left;
         }
         else if (Input.GetAxisRaw("Horizontal") == 0)
@@ -92,12 +100,13 @@ public class PlayerMovement : MonoBehaviour
                     facingDirection = Vector2.right;
                     break;
             }
+=======
+>>>>>>> parent of 66f051e (Merge branch 'main' of https://github.com/jack-hk/UnityPlatformerY1S2)
         }
         else
         {
             lastDirection = 1;
             entityRenderer.flipX = false;
-            facingDirection = Vector2.right;
         }
 
         //run animation decided through velocity
@@ -116,13 +125,10 @@ public class PlayerMovement : MonoBehaviour
             entityPhysics.velocity = new Vector2(entityMove.x * runSpeed * Time.deltaTime, entityPhysics.velocity.y); //movement
 
         }
-        else if (isPoweredUp) {
-            state = "power";
-            entityPhysics.velocity = new Vector2(entityMove.x * runSpeed * Time.deltaTime, entityPhysics.velocity.y);
-        }
         else
         {
             state = "walk";
+<<<<<<< HEAD
             entityPhysics.velocity = new Vector2(entityMove.x * walkSpeed * Time.deltaTime, entityPhysics.velocity.y);
         }
 
@@ -171,6 +177,12 @@ public class PlayerMovement : MonoBehaviour
         entityAnimator.SetInteger("isAttacking", 0);
         isAttacking = false;
     }
+=======
+            entityPhysics.velocity = new Vector2(entityMove.x * walkSpeed * Time.deltaTime, entityPhysics.velocity.y); //movement
+        }
+
+    }
+>>>>>>> parent of 66f051e (Merge branch 'main' of https://github.com/jack-hk/UnityPlatformerY1S2)
 
     private bool IsGrounded()
     {
