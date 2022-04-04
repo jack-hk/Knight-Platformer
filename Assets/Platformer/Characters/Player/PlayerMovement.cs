@@ -144,22 +144,6 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Player: Air Attack");
 #endif
         }
-
-        if (isAttacking)
-        {
-            if (common.SecondsTimer(0.01f)) //timer for small increments of addforce (dashing)
-            {
-                Dash(attackDashVelocity, 20);
-            }
-        }
-    }
-
-    private void Dash(float force, float durationInSeconds)
-    {
-            for (int i = 0; i < durationInSeconds; i++)
-            {
-                entityPhysics.AddForce(facingDirection * force);
-            }
     }
 
     private void EndAttackAnimation() //used in animation events
