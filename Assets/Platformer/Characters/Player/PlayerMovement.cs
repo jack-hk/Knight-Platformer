@@ -150,11 +150,12 @@ public class PlayerMovement : MonoBehaviour
     {
         entityAnimator.SetInteger("isAttacking", 0);
         isAttacking = false;
+        //Debug.Log("Animation Ended");
     }
 
     private bool IsGrounded()
     {
-        float extraHeightTest = 0.2f; //additional raycast length for surface detection
+        float extraHeightTest = 0.3f; //additional raycast length for surface detection
         RaycastHit2D rayhit = Physics2D.Raycast(entityCollider.bounds.center, Vector2.down, entityCollider.bounds.extents.y + extraHeightTest, surfaceLayer);
 
 #if UNITY_EDITOR //visual ray for debugging

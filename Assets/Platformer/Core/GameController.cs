@@ -4,10 +4,20 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 //JackHK
-
+//[RequireComponent(typeof(Rigidbody2D))]
 public class GameController : MonoBehaviour
 {
+    // --------------Data-------------- 
+    public int globalScore = 0;
+
     private float timer = 0;
+
+    GameObject deathScreen;
+
+    // --------------In-Built-------------- 
+    public void Start()
+    {
+    }
 
     // --------------Functions-------------- 
     public void LoadLevel(int level)
@@ -19,6 +29,11 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    /*public void DeathScreen()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }*/
 
     // ---------------Common----------------
 
@@ -34,4 +49,49 @@ public class GameController : MonoBehaviour
     }
 
 }
+//abstract class = same as normal class but instances cannot be made
+//virtualistaion
+class Entity
+{
+    protected float health;
+    protected float maxHealth;
 
+    public virtual void Damage(float damage)
+    {
+
+    }
+}
+
+class Player : Entity, IDamagable
+{
+    public void Damage()
+    {
+
+    }
+}
+
+class WeakEntity : Entity
+{
+    public override void Damage(float damage)
+    {
+
+    }
+}
+
+interface IDamagable
+{
+    public void Damage();
+}
+
+class Main
+{
+    public static void _Main()
+    {
+        Player p = new Player();
+        p.Damage(2);
+        Entity e = new Entity();
+        Entity we = new WeakEntity();
+        e.Damage(50);
+        we.Damage(20);
+    }
+}
