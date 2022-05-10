@@ -7,8 +7,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // --------------Data-------------- 
-    GameController common;
     [SerializeField] private GameObject gameController;
+    GameController common;
+    PlayerController playerc;
 
     [Header("Configuration")]
     [SerializeField] private LayerMask surfaceLayer;
@@ -17,8 +18,9 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed;
     public float jumpVelocity;
     public float attackDashVelocity;
+    public bool isPoweredUp = false;
 
-    private bool isAttacking = false;
+    public bool isAttacking = false;
     private Vector2 facingDirection = Vector2.right;
     private int lastDirection = 1;
 
@@ -28,15 +30,21 @@ public class PlayerMovement : MonoBehaviour
     Animator entityAnimator;
     SpriteRenderer entityRenderer;
 
+    [Header("Sounds")]
+    AudioSource swingSFX;
+
     // --------------In-Built-------------- 
     private void Start()
     {
         common = gameController.GetComponent<GameController>();
+        playerc = GetComponent<PlayerController>();
 
         entityPhysics = GetComponent<Rigidbody2D>();
         entityCollider = GetComponent<CapsuleCollider2D>();
         entityAnimator = GetComponent<Animator>();
         entityRenderer = GetComponent<SpriteRenderer>();
+
+        swingSFX = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate()
@@ -62,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move(string state) //state determines animations. ex: walking, running, powered-up, etc.
     {
-        bool isPoweredUp = false;
+
 
         //check if looking backwards
         if (Input.GetAxisRaw("Horizontal") == -1) 
@@ -114,6 +122,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (isPoweredUp) {
             state = "power";
+            entityAnimator.SetBool("isGold", true);
             entityPhysics.velocity = new Vector2(entityMove.x * runSpeed * Time.deltaTime, entityPhysics.velocity.y);
         }
         else
@@ -131,6 +140,8 @@ public class PlayerMovement : MonoBehaviour
         {
             entityAnimator.SetInteger("isAttacking", 1);
             isAttacking = true;
+            swingSFX.pitch = 2f;
+            swingSFX.Play();
 #if UNITY_EDITOR
             Debug.Log("Player: Ground Attack");
 #endif
@@ -140,10 +151,13 @@ public class PlayerMovement : MonoBehaviour
         {
             entityAnimator.SetInteger("isAttacking", 2);
             isAttacking = true;
+            swingSFX.pitch = 3f;
+            swingSFX.Play();
 #if UNITY_EDITOR
             Debug.Log("Player: Air Attack");
 #endif
         }
+
     }
 
     private void EndAttackAnimation() //used in animation events

@@ -1,0 +1,2952 @@
+fileFormatVersion: 2
+guid: 0c300f1ce3fb89246bd15bf585f60f63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3153988092075409104
+    second: Quixote gold_0
+  - first:
+      213: 1360554037585995261
+    second: Quixote gold_1
+  - first:
+      213: -6594468480589377557
+    second: Quixote gold_2
+  - first:
+      213: 8924379737449804481
+    second: Quixote gold_3
+  - first:
+      213: 7627842159807178611
+    second: Quixote gold_4
+  - first:
+      213: -2197389511187670716
+    second: Quixote gold_5
+  - first:
+      213: -1022715626536645093
+    second: Quixote gold_6
+  - first:
+      213: 6703388775347601345
+    second: Quixote gold_7
+  - first:
+      213: -351004366304723207
+    second: Quixote gold_8
+  - first:
+      213: 1205923381991956808
+    second: Quixote gold_9
+  - first:
+      213: -3902548186388890418
+    second: Quixote gold_10
+  - first:
+      213: 2730087561265012465
+    second: Quixote gold_11
+  - first:
+      213: -5431960666915123025
+    second: Quixote gold_12
+  - first:
+      213: -201389405710165603
+    second: Quixote gold_13
+  - first:
+      213: -797222079630412944
+    second: Quixote gold_14
+  - first:
+      213: 474296775693394726
+    second: Quixote gold_15
+  - first:
+      213: 8589763780854079852
+    second: Quixote gold_16
+  - first:
+      213: -6734864596494503853
+    second: Quixote gold_17
+  - first:
+      213: -6456490481349545545
+    second: Quixote gold_18
+  - first:
+      213: 7253786161957778012
+    second: Quixote gold_19
+  - first:
+      213: -7461571686048347205
+    second: Quixote gold_20
+  - first:
+      213: 8531484501482549817
+    second: Quixote gold_21
+  - first:
+      213: -2126993059417430434
+    second: Quixote gold_22
+  - first:
+      213: 3556797797929159270
+    second: Quixote gold_23
+  - first:
+      213: -1650694713556151353
+    second: Quixote gold_24
+  - first:
+      213: -4553396412210669467
+    second: Quixote gold_25
+  - first:
+      213: 8999227270372682436
+    second: Quixote gold_26
+  - first:
+      213: -5364385726321007243
+    second: Quixote gold_27
+  - first:
+      213: 643207628740003730
+    second: Quixote gold_28
+  - first:
+      213: 6325126983654011483
+    second: Quixote gold_29
+  - first:
+      213: 7603143140761313927
+    second: Quixote gold_30
+  - first:
+      213: -2487715281520017762
+    second: Quixote gold_31
+  - first:
+      213: 3777490043599784677
+    second: Quixote gold_32
+  - first:
+      213: 7176428576993384093
+    second: Quixote gold_33
+  - first:
+      213: 2673140536521435589
+    second: Quixote gold_34
+  - first:
+      213: -8740482219849212855
+    second: Quixote gold_35
+  - first:
+      213: 8148043403726365164
+    second: Quixote gold_36
+  - first:
+      213: 6554353296331030243
+    second: Quixote gold_37
+  - first:
+      213: -9124719720951089639
+    second: Quixote gold_38
+  - first:
+      213: -8542938509791975270
+    second: Quixote gold_39
+  - first:
+      213: 3201980452824194333
+    second: Quixote gold_40
+  - first:
+      213: -7250799851268223498
+    second: Quixote gold_41
+  - first:
+      213: 7582382701268333349
+    second: Quixote gold_42
+  - first:
+      213: -1209066144715665141
+    second: Quixote gold_43
+  - first:
+      213: 530651689832718018
+    second: Quixote gold_44
+  - first:
+      213: -807590635762676971
+    second: Quixote gold_45
+  - first:
+      213: -5411292819739710648
+    second: Quixote gold_46
+  - first:
+      213: 4652217156461773317
+    second: Quixote gold_47
+  - first:
+      213: -3890223827055186675
+    second: Quixote gold_48
+  - first:
+      213: 451110641334569553
+    second: Quixote gold_49
+  - first:
+      213: -4237403517013346290
+    second: Quixote gold_50
+  - first:
+      213: 1041441399610849523
+    second: Quixote gold_51
+  - first:
+      213: -7377821382935935934
+    second: Quixote gold_52
+  - first:
+      213: 4577534051322562768
+    second: Quixote gold_53
+  - first:
+      213: -6089170720475254628
+    second: Quixote gold_54
+  - first:
+      213: 8822150281723780610
+    second: Quixote gold_55
+  - first:
+      213: -1298781435493886910
+    second: Quixote gold_56
+  - first:
+      213: -361449631714313809
+    second: Quixote gold_57
+  - first:
+      213: 6218271298424965872
+    second: Quixote gold_58
+  - first:
+      213: 4140282811409379799
+    second: Quixote gold_59
+  - first:
+      213: 4682438100924214073
+    second: Quixote gold_60
+  - first:
+      213: 877217375939843549
+    second: Quixote gold_61
+  - first:
+      213: 1030474658338424397
+    second: Quixote gold_62
+  - first:
+      213: 4795218557187714081
+    second: Quixote gold_63
+  - first:
+      213: -5586095614326833010
+    second: Quixote gold_64
+  - first:
+      213: -1690283817339874711
+    second: Quixote gold_65
+  - first:
+      213: -7122762827040475728
+    second: Quixote gold_66
+  - first:
+      213: -4186505917638539219
+    second: Quixote gold_67
+  - first:
+      213: -4662222312582731719
+    second: Quixote gold_68
+  - first:
+      213: -5861954852753211658
+    second: Quixote gold_69
+  - first:
+      213: -3857420338886817359
+    second: Quixote gold_70
+  - first:
+      213: 8854090932925620376
+    second: Quixote gold_71
+  - first:
+      213: 9199171438659114341
+    second: Quixote gold_72
+  - first:
+      213: 5132133050779008821
+    second: Quixote gold_73
+  - first:
+      213: 7979760595835163371
+    second: Quixote gold_74
+  - first:
+      213: 8068680831285238438
+    second: Quixote gold_75
+  - first:
+      213: 916663665911249971
+    second: Quixote gold_76
+  - first:
+      213: 388504047408937669
+    second: Quixote gold_77
+  - first:
+      213: 9083347831532266965
+    second: Quixote gold_78
+  - first:
+      213: 5084471647151668669
+    second: Quixote gold_79
+  - first:
+      213: -1870269938523008936
+    second: Quixote gold_80
+  - first:
+      213: -1387376024278207210
+    second: Quixote gold_81
+  - first:
+      213: 1623149828047359528
+    second: Quixote gold_82
+  - first:
+      213: 5550741059086749010
+    second: Quixote gold_83
+  - first:
+      213: 880860104524759693
+    second: Quixote gold_84
+  - first:
+      213: -1074270333714423877
+    second: Quixote gold_85
+  - first:
+      213: 6709043131456676162
+    second: Quixote gold_86
+  - first:
+      213: -2921343054365369727
+    second: Quixote gold_87
+  - first:
+      213: 283278413534211838
+    second: Quixote gold_88
+  - first:
+      213: -7468669704443407376
+    second: Quixote gold_89
+  - first:
+      213: -5389909241186881021
+    second: Quixote gold_90
+  - first:
+      213: -8619519830100528722
+    second: Quixote gold_91
+  - first:
+      213: -2150430550559998165
+    second: Quixote gold_92
+  - first:
+      213: 3219479504910826302
+    second: Quixote gold_93
+  - first:
+      213: -6553847478946326865
+    second: Quixote gold_94
+  - first:
+      213: 7164613602253110809
+    second: Quixote gold_95
+  - first:
+      213: 3086315774150073568
+    second: Quixote gold_96
+  - first:
+      213: -7111482328624368778
+    second: Quixote gold_97
+  - first:
+      213: -2791599214477309031
+    second: Quixote gold_98
+  - first:
+      213: -8747660186751062737
+    second: Quixote gold_99
+  - first:
+      213: 7677732679929261984
+    second: Quixote gold_100
+  - first:
+      213: 7077266534181214430
+    second: Quixote gold_101
+  - first:
+      213: -8908265215856030888
+    second: Quixote gold_102
+  - first:
+      213: 2586580922694561501
+    second: Quixote gold_103
+  - first:
+      213: 1852667617664633156
+    second: Quixote gold_104
+  - first:
+      213: 5194335342540282462
+    second: Quixote gold_105
+  - first:
+      213: -6227780179713013842
+    second: Quixote gold_106
+  - first:
+      213: 8216979149859511061
+    second: Quixote gold_107
+  - first:
+      213: -7689722952933284610
+    second: Quixote gold_108
+  - first:
+      213: -3610510507011516140
+    second: Quixote gold_109
+  - first:
+      213: 7968579991918318589
+    second: Quixote gold_110
+  - first:
+      213: -4597776316135200982
+    second: Quixote gold_111
+  - first:
+      213: -5577255033361463721
+    second: Quixote gold_112
+  - first:
+      213: -9004557466616146166
+    second: Quixote gold_113
+  - first:
+      213: 7881668427712338240
+    second: Quixote gold_114
+  - first:
+      213: 1578893530091635026
+    second: Quixote gold_115
+  - first:
+      213: -4329679812024686544
+    second: Quixote gold_116
+  - first:
+      213: 1808810211833592482
+    second: Quixote gold_117
+  - first:
+      213: 2951646146969340178
+    second: Quixote gold_118
+  - first:
+      213: -797685446232823926
+    second: Quixote gold_119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quixote gold_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1284
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de77fd857735cb20800000000000000
+      internalID: 3153988092075409104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1284
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5690c40b8a1e210800000000000000
+      internalID: 1360554037585995261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1284
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befc5fb1bddbb74a0800000000000000
+      internalID: -6594468480589377557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1284
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2b36b7614c9db70800000000000000
+      internalID: 8924379737449804481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1284
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3772e02c70a8bd960800000000000000
+      internalID: 7627842159807178611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_5
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1284
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4495d70c1ed4181e0800000000000000
+      internalID: -2197389511187670716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_6
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1284
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eca066e859ec1f0800000000000000
+      internalID: -1022715626536645093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_7
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1284
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf3fe93398370d50800000000000000
+      internalID: 6703388775347601345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_8
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1284
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9febbc7736bf02bf0800000000000000
+      internalID: -351004366304723207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_9
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1284
+        width: 52
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841e7f93dec4cb010800000000000000
+      internalID: 1205923381991956808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1285
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccf17fd91d57d9c0800000000000000
+      internalID: -3902548186388890418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1157
+        width: 56
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fed9ee1c2833e520800000000000000
+      internalID: 2730087561265012465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1155
+        width: 55
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa051ae9d8ccd94b0800000000000000
+      internalID: -5431960666915123025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1154
+        width: 53
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d995e1b0765843df0800000000000000
+      internalID: -201389405710165603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_14
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1156
+        width: 52
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f7801eb2bfe4f0800000000000000
+      internalID: -797222079630412944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_15
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1158
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6236151976a059600800000000000000
+      internalID: 474296775693394726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1156
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61e25ee5a8f43770800000000000000
+      internalID: 8589763780854079852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_17
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1173
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35037931554f882a0800000000000000
+      internalID: -6734864596494503853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_18
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1166
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1387b7d10f566a0800000000000000
+      internalID: -6456490481349545545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_19
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1158
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5233240510aaa460800000000000000
+      internalID: 7253786161957778012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_20
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1158
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbc9faa51c237890800000000000000
+      internalID: -7461571686048347205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_21
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1173
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9323e9dc3fbe56670800000000000000
+      internalID: 8531484501482549817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1040
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56e3bde4176b72e0800000000000000
+      internalID: -2126993059417430434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1028
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a8573a0c84c5130800000000000000
+      internalID: 3556797797929159270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_24
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1028
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3dedd57ed8719e0800000000000000
+      internalID: -1650694713556151353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_25
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1027
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56815a886161fc0c0800000000000000
+      internalID: -4553396412210669467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_26
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1025
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca629fb58da3ec70800000000000000
+      internalID: 8999227270372682436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_27
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1025
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575e5788a9fdd85b0800000000000000
+      internalID: -5364385726321007243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_28
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1028
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2978ed33ee12de800800000000000000
+      internalID: 643207628740003730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_29
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1028
+        width: 59
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b527febca7d57c750800000000000000
+      internalID: 6325126983654011483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_30
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1028
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782a681476ac38960800000000000000
+      internalID: 7603143140761313927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_31
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1028
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e30b6c12cd97dd0800000000000000
+      internalID: -2487715281520017762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_32
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1028
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea075f3e275c6430800000000000000
+      internalID: 3777490043599784677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 900
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9617a7b4cbc79360800000000000000
+      internalID: 7176428576993384093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_34
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 897
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9ae02b727e81520800000000000000
+      internalID: 2673140536521435589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_35
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 896
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1548eab193b680800000000000000
+      internalID: -8740482219849212855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_36
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 896
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce123953e4aa31170800000000000000
+      internalID: 8148043403726365164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_37
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 896
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeb838b89db5fa50800000000000000
+      internalID: 6554353296331030243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_38
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 896
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91675b532cb7e5180800000000000000
+      internalID: -9124719720951089639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_39
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 896
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9828d110b2617980800000000000000
+      internalID: -8542938509791975270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_40
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 897
+        width: 86
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d945cc148bf6c20800000000000000
+      internalID: 3201980452824194333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_41
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 896
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdc3bf93fbff5b90800000000000000
+      internalID: -7250799851268223498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_42
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 896
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5237a24c4e80a3960800000000000000
+      internalID: 7582382701268333349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_43
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 896
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01954e4fb8883fe0800000000000000
+      internalID: -1209066144715665141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_44
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 769
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce90ff76e04d5700800000000000000
+      internalID: 530651689832718018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_45
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 772
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b0f67789cdac4f0800000000000000
+      internalID: -807590635762676971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_46
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 777
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84beac7c9d937e4b0800000000000000
+      internalID: -5411292819739710648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_48
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 780
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d6d936a06230ac0800000000000000
+      internalID: -3890223827055186675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_49
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 777
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a452bfcbaa24600800000000000000
+      internalID: 451110641334569553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_50
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 777
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08bd66b3f7b135c0800000000000000
+      internalID: -4237403517013346290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_51
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 777
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8b0366f61f37e00800000000000000
+      internalID: 1041441399610849523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_52
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 772
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24482d5aa86bc9990800000000000000
+      internalID: -7377821382935935934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_53
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 772
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8065487faa68f30800000000000000
+      internalID: 4577534051322562768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_54
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 772
+        width: 60
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90fc55dd7bee7ba0800000000000000
+      internalID: -6089170720475254628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_55
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 772
+        width: 51
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e124180f29e6a70800000000000000
+      internalID: 8822150281723780610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 644
+        width: 59
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244d3886a2dc9fde0800000000000000
+      internalID: -1298781435493886910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_57
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 644
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9f879997fdbfaf0800000000000000
+      internalID: -361449631714313809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_58
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 653
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa80a3dcccbb4650800000000000000
+      internalID: 6218271298424965872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_59
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 650
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d136b3e74d357930800000000000000
+      internalID: 4140282811409379799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_60
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 644
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ba758e4ac5bf040800000000000000
+      internalID: 4682438100924214073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_62
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 644
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46cd48fd3bfc4e00800000000000000
+      internalID: 1030474658338424397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_64
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 644
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e808eaa92a33a72b0800000000000000
+      internalID: -5586095614326833010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_65
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 658
+        width: 85
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9629dd9d2d7ea88e0800000000000000
+      internalID: -1690283817339874711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_66
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 644
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b535e262fcd62d90800000000000000
+      internalID: -7122762827040475728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_67
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 652
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2885198c0b86e5c0800000000000000
+      internalID: -4186505917638539219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_68
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 650
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9382b9a12857c4fb0800000000000000
+      internalID: -4662222312582731719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_69
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 519
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe74409e1726aea0800000000000000
+      internalID: -5861954852753211658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_70
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 512
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9c847a3a0b77ac0800000000000000
+      internalID: -3857420338886817359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_71
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 512
+        width: 61
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890e902eacc00ea70800000000000000
+      internalID: 8854090932925620376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_72
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 514
+        width: 54
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56512352fa50aaf70800000000000000
+      internalID: 9199171438659114341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_73
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 518
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f79b781dff83740800000000000000
+      internalID: 5132133050779008821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_74
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 517
+        width: 56
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21a6bbbfdcdbe60800000000000000
+      internalID: 7979760595835163371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_75
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 518
+        width: 56
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa92c26776b9ff60800000000000000
+      internalID: 8068680831285238438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_76
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 523
+        width: 50
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cb5295fb4a8bc00800000000000000
+      internalID: 916663665911249971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_77
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 525
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca7c9b6f5e346500800000000000000
+      internalID: 388504047408937669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_78
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 516
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5abc52ab88e0e70800000000000000
+      internalID: 9083347831532266965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_79
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 512
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd350f360caf8640800000000000000
+      internalID: 5084471647151668669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_80
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 388
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8509e3866677b06e0800000000000000
+      internalID: -1870269938523008936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_81
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 389
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f0074bdc0fbce0800000000000000
+      internalID: -1387376024278207210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_82
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 389
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ecff53b26968610800000000000000
+      internalID: 1623149828047359528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_83
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 389
+        width: 99
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d8a0b8591380d40800000000000000
+      internalID: 5550741059086749010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_84
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 389
+        width: 97
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82030b1991793c00800000000000000
+      internalID: 880860104524759693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_85
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 389
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf163eb2dc6711f0800000000000000
+      internalID: -1074270333714423877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_86
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 389
+        width: 121
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241ef399e2f4b1d50800000000000000
+      internalID: 6709043131456676162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_87
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 389
+        width: 122
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a5f7158fd4577d0800000000000000
+      internalID: -2921343054365369727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_88
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 388
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2e3b57386ee300800000000000000
+      internalID: 283278413534211838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_89
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 389
+        width: 102
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3dde97974f95890800000000000000
+      internalID: -7468669704443407376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_90
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 389
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302f5732a123335b0800000000000000
+      internalID: -5389909241186881021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_91
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 261
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea13c68f160516880800000000000000
+      internalID: -8619519830100528722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_92
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 261
+        width: 59
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f39b7cec22822e0800000000000000
+      internalID: -2150430550559998165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_93
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 260
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b3cdb5d83edac20800000000000000
+      internalID: 3219479504910826302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_94
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 260
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa69051117e0c05a0800000000000000
+      internalID: -6553847478946326865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_95
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 260
+        width: 59
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e7a3b8c12dd6360800000000000000
+      internalID: 7164613602253110809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_96
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 260
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec56e638dbc4da20800000000000000
+      internalID: 3086315774150073568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_97
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 260
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67370e71080fe4d90800000000000000
+      internalID: -7111482328624368778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_98
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 260
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b02d11e4f3249d0800000000000000
+      internalID: -2791599214477309031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_99
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 260
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d20e048611a9680800000000000000
+      internalID: -8747660186751062737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_100
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 260
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af679ba139cc8a60800000000000000
+      internalID: 7677732679929261984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_101
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 263
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed891a67a60873260800000000000000
+      internalID: 7077266534181214430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 132
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bcee3fbfb7f5480800000000000000
+      internalID: -8908265215856030888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_103
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 132
+        width: 70
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddee20815a165e320800000000000000
+      internalID: 2586580922694561501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_104
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 132
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44905c5e16ff5b910800000000000000
+      internalID: 1852667617664633156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_105
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 132
+        width: 55
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ade58297cf51840800000000000000
+      internalID: 5194335342540282462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_106
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 132
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7ccf83cea7299a0800000000000000
+      internalID: -6227780179713013842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_107
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 134
+        width: 59
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bda2a5003980270800000000000000
+      internalID: 8216979149859511061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_109
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 130
+        width: 104
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41953cbb2d3e4edc0800000000000000
+      internalID: -3610510507011516140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_110
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 159
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df393968845169e60800000000000000
+      internalID: 7968579991918318589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_111
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 136
+        width: 94
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27ae00fcca6130c0800000000000000
+      internalID: -4597776316135200982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_112
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 150
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7560bb2c81c9992b0800000000000000
+      internalID: -5577255033361463721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_113
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 133
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07d0ca31b2690380800000000000000
+      internalID: -9004557466616146166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_114
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 132
+        width: 103
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04994371daf416d60800000000000000
+      internalID: 7881668427712338240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_115
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 130
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251464fdc4b59e510800000000000000
+      internalID: 1578893530091635026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_116
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038a61d8623e9e3c0800000000000000
+      internalID: -4329679812024686544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_117
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aab07edd4f2a1910800000000000000
+      internalID: 1808810211833592482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_118
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2
+        width: 99
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21902cc388a56f820800000000000000
+      internalID: 2951646146969340178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quixote gold_119
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2
+        width: 97
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a872bce105d0ee4f0800000000000000
+      internalID: -797685446232823926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 16bc1a0bf18f4c14dbd4f18b4d397dfb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

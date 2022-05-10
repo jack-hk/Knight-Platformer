@@ -9,7 +9,16 @@ EditorBuildSettings:
     path: Assets/Platformer/_Levels/Menus/Title.unity
     guid: aee16d12c52854345861467ce1e6f138
   - enabled: 1
-    path: Assets/Platformer/_Levels/Forest.unity
+    path: Assets/Platformer/_Levels/Level1.unity
+    guid: 90ef2e49cb2276646b3b528cf8b6e0c0
+  - enabled: 1
+    path: Assets/Platformer/_Levels/Level2.unity
+    guid: 43091d5f67a5d79429ee08702deb45f0
+  - enabled: 1
+    path: Assets/Platformer/_Levels/Menus/Victory.unity
+    guid: 80dba2575754dce4fa7546b266da0586
+  - enabled: 0
+    path: Assets/Platformer/_Levels/Template/ForestLevel.unity
     guid: ba41d5917662b70439223910a20bba19
   - enabled: 0
     path: Assets/_Developers/jackh/Levels/TestingGrounds.unity
