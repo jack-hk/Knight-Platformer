@@ -75,7 +75,7 @@ TextureImporter:
       213: -3576281918013906785
     second: T_wallspikes_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +135,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -173,6 +175,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -700,6 +726,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      T_wallspikes_7: -5192952414485391292
+      T_wallspikes_6: -8852018927881949765
+      T_wallspikes_0: 3793633110805130404
+      T_wallspikes_10: 3691467063267104823
+      T_wallspikes_5: -1604324550244624800
+      T_wallspikes_9: 4814979173212021923
+      T_wallspikes_14: 6330210018984313166
+      T_wallspikes_4: -5944847759966696772
+      T_wallspikes_1: -4621069822020252358
+      T_wallspikes_3: -6490035319184035257
+      T_wallspikes_16: 389690044984225698
+      T_wallspikes_18: -7885164916157291683
+      T_wallspikes_8: 8233147453258918780
+      T_wallspikes_20: -4992778878001642201
+      T_wallspikes_19: -8490316537343950729
+      T_wallspikes_17: 263517039158486552
+      T_wallspikes_13: 7680537480421936121
+      T_wallspikes_21: -5504317494587995437
+      T_wallspikes_23: -3576281918013906785
+      T_wallspikes_12: 5581189426767315441
+      T_wallspikes_11: -1283964710852013811
+      T_wallspikes_2: -2941642203338840858
+      T_wallspikes_22: 77137598012044597
+      T_wallspikes_15: 9151038396076367720
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

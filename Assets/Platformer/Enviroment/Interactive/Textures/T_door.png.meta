@@ -84,7 +84,7 @@ TextureImporter:
       213: 9020250918215515619
     second: T_door_26
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -105,6 +105,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -143,6 +144,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -182,6 +184,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -772,6 +798,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      T_door_6: 6472676374307463119
+      T_door_12: 2385425606274963083
+      T_door_16: -5203564531157487347
+      T_door_15: -7512790384728030203
+      T_door_22: -3966662134457816874
+      T_door_13: -2901857537936034960
+      T_door_2: 5945795983327104225
+      T_door_7: 2715147831981260214
+      T_door_18: -2620533089924521683
+      T_door_25: 5808868090336547605
+      T_door_14: -95324168324725544
+      T_door_17: 8381185336077085518
+      T_door_10: 3031212733681530545
+      T_door_9: -6908062919479150247
+      T_door_20: 163255433126949032
+      T_door_11: -8795957564677432557
+      T_door_21: -4673945373616889179
+      T_door_5: 631730020478392570
+      T_door_23: -6266897731639501781
+      T_door_1: 5063650851989038224
+      T_door_24: 3879437498419544356
+      T_door_8: 848459036817178846
+      T_door_4: -6673418777928454409
+      T_door_3: -1337827405527763451
+      T_door_0: 5302648099630459708
+      T_door_26: 9020250918215515619
+      T_door_19: 3668713029076545731
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

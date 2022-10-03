@@ -351,7 +351,7 @@ TextureImporter:
       213: 5877389947432977937
     second: Quixote_Default_Weapons_115
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -372,6 +372,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -410,6 +411,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -473,6 +475,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2890,6 +2904,121 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Quixote_Default_Weapons_103: 1421304963871554346
+      Quixote_Default_Weapons_18: 7868892295821536250
+      Quixote_Default_Weapons_10: -6153949092133860043
+      Quixote_Default_Weapons_30: 6853271304850563084
+      Quixote_Default_Weapons_86: -1476671981266196881
+      Quixote_Default_Weapons_87: -9059541674974301461
+      Quixote_Default_Weapons_28: 7800663846456166528
+      Quixote_Default_Weapons_46: -8871357089590703342
+      Quixote_Default_Weapons_95: -2621385540233175930
+      Quixote_Default_Weapons_7: 5780980866182663078
+      Quixote_Default_Weapons_97: -4132171662946257419
+      Quixote_Default_Weapons_53: -7324503733457442919
+      Quixote_Default_Weapons_107: -5936802099687596416
+      Quixote_Default_Weapons_39: 3321366288099197144
+      Quixote_Default_Weapons_70: 4359790614275958604
+      Quixote_Default_Weapons_55: 6528238569631349706
+      Quixote_Default_Weapons_43: -5962650593610394862
+      Quixote_Default_Weapons_92: -1070983397267952659
+      Quixote_Default_Weapons_68: 8170622881855159032
+      Quixote_Default_Weapons_32: 3494928776151939762
+      Quixote_Default_Weapons_27: 5538434925345474058
+      Quixote_Default_Weapons_6: -2694725876273144655
+      Quixote_Default_Weapons_76: 6502101468574454815
+      Quixote_Default_Weapons_54: -7695515346382486869
+      Quixote_Default_Weapons_75: -1661528870362868768
+      Quixote_Default_Weapons_24: -7763608782008269331
+      Quixote_Default_Weapons_25: 4633811639449828125
+      Quixote_Default_Weapons_79: -3286514790456276044
+      Quixote_Default_Weapons_105: 1270052971888751898
+      Quixote_Default_Weapons_60: -9214954558529941354
+      Quixote_Default_Weapons_112: 1617564951131022652
+      Quixote_Default_Weapons_83: -8500173650560541058
+      Quixote_Default_Weapons_59: 6727195490685948128
+      Quixote_Default_Weapons_5: -7864794309287775628
+      Quixote_Default_Weapons_106: -5996475260807495903
+      Quixote_Default_Weapons_31: -995562721177026855
+      Quixote_Default_Weapons_104: -4938517616701650732
+      Quixote_Default_Weapons_102: 3686574171786018256
+      Quixote_Default_Weapons_17: -491695038617659110
+      Quixote_Default_Weapons_110: 3509052747308931057
+      Quixote_Default_Weapons_4: -8774623777571744627
+      Quixote_Default_Weapons_45: -1887838864312438764
+      Quixote_Default_Weapons_15: 5784601764520396323
+      Quixote_Default_Weapons_81: -3943333268095014522
+      Quixote_Default_Weapons_51: 253308680174448240
+      Quixote_Default_Weapons_0: 8081974265164950577
+      Quixote_Default_Weapons_113: -2637395582283837961
+      Quixote_Default_Weapons_52: -3229248722202508285
+      Quixote_Default_Weapons_100: -6040277682603005877
+      Quixote_Default_Weapons_1: 5827882563280213659
+      Quixote_Default_Weapons_84: 1824418031753543696
+      Quixote_Default_Weapons_78: 6908879731024491912
+      Quixote_Default_Weapons_82: -5578578394231458002
+      Quixote_Default_Weapons_89: 1914160228018615410
+      Quixote_Default_Weapons_99: -92370905795884871
+      Quixote_Default_Weapons_69: 4159436388364050179
+      Quixote_Default_Weapons_96: 4488695157581131854
+      Quixote_Default_Weapons_57: 8751037362236064376
+      Quixote_Default_Weapons_13: -4875343607169688765
+      Quixote_Default_Weapons_56: 1587612602162142989
+      Quixote_Default_Weapons_94: -7009248997494160620
+      Quixote_Default_Weapons_61: 8643028871022721328
+      Quixote_Default_Weapons_21: -4878363499318320654
+      Quixote_Default_Weapons_101: 7986711030823577074
+      Quixote_Default_Weapons_11: 5086090396944767692
+      Quixote_Default_Weapons_80: 1704081897353721169
+      Quixote_Default_Weapons_58: 3734062099693858942
+      Quixote_Default_Weapons_90: -8255518848102324125
+      Quixote_Default_Weapons_108: 7551342168261067082
+      Quixote_Default_Weapons_14: 332684846452236593
+      Quixote_Default_Weapons_2: 8460980607038132479
+      Quixote_Default_Weapons_64: 6280116313801568037
+      Quixote_Default_Weapons_40: 4989515171476448397
+      Quixote_Default_Weapons_109: 3970633518370956178
+      Quixote_Default_Weapons_33: 8809993509834835463
+      Quixote_Default_Weapons_37: -8150382865166606913
+      Quixote_Default_Weapons_41: -3752146731388513787
+      Quixote_Default_Weapons_88: -8672525593168416553
+      Quixote_Default_Weapons_3: -3353683992422605643
+      Quixote_Default_Weapons_115: 5877389947432977937
+      Quixote_Default_Weapons_44: 756636584773800312
+      Quixote_Default_Weapons_65: -6452783131897899957
+      Quixote_Default_Weapons_36: -8680499114484127762
+      Quixote_Default_Weapons_9: 115633990260865431
+      Quixote_Default_Weapons_34: 9182722191686226944
+      Quixote_Default_Weapons_91: -6297655616839994292
+      Quixote_Default_Weapons_74: -3808570122828549995
+      Quixote_Default_Weapons_63: 879462873696911100
+      Quixote_Default_Weapons_35: 7710886284805688207
+      Quixote_Default_Weapons_48: 634173195535141338
+      Quixote_Default_Weapons_50: -8613674985279740289
+      Quixote_Default_Weapons_12: -656409048995515377
+      Quixote_Default_Weapons_67: 1099345271363914992
+      Quixote_Default_Weapons_93: -6960600551888472398
+      Quixote_Default_Weapons_42: 5711498512672385478
+      Quixote_Default_Weapons_20: -3483353428618596326
+      Quixote_Default_Weapons_8: 7036177989889660193
+      Quixote_Default_Weapons_111: 7524325845006729337
+      Quixote_Default_Weapons_23: 1572582276352992163
+      Quixote_Default_Weapons_16: 6972301846927145264
+      Quixote_Default_Weapons_26: -8674999419778312171
+      Quixote_Default_Weapons_29: -1818592541258265084
+      Quixote_Default_Weapons_38: 5839773133537639708
+      Quixote_Default_Weapons_66: -3655873783942314907
+      Quixote_Default_Weapons_73: -3466602924297224214
+      Quixote_Default_Weapons_19: 7574503199895237235
+      Quixote_Default_Weapons_77: -4214098863185167686
+      Quixote_Default_Weapons_114: -6968653387471307387
+      Quixote_Default_Weapons_22: -996337644619431019
+      Quixote_Default_Weapons_71: 2492398591466364638
+      Quixote_Default_Weapons_85: -1514120556781025927
+      Quixote_Default_Weapons_49: 6497622520730953029
+      Quixote_Default_Weapons_72: -7889715392354627679
+      Quixote_Default_Weapons_98: 1364983661591622193
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

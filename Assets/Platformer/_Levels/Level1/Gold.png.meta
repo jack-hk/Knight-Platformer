@@ -363,7 +363,7 @@ TextureImporter:
       213: -797685446232823926
     second: Quixote gold_119
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -384,6 +384,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -422,6 +423,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -485,6 +487,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2944,6 +2958,123 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Quixote gold_33: 7176428576993384093
+      Quixote gold_106: -6227780179713013842
+      Quixote gold_107: 8216979149859511061
+      Quixote gold_50: -4237403517013346290
+      Quixote gold_37: 6554353296331030243
+      Quixote gold_87: -2921343054365369727
+      Quixote gold_45: -807590635762676971
+      Quixote gold_54: -6089170720475254628
+      Quixote gold_17: -6734864596494503853
+      Quixote gold_53: 4577534051322562768
+      Quixote gold_62: 1030474658338424397
+      Quixote gold_44: 530651689832718018
+      Quixote gold_109: -3610510507011516140
+      Quixote gold_48: -3890223827055186675
+      Quixote gold_55: 8822150281723780610
+      Quixote gold_117: 1808810211833592482
+      Quixote gold_67: -4186505917638539219
+      Quixote gold_69: -5861954852753211658
+      Quixote gold_56: -1298781435493886910
+      Quixote gold_75: 8068680831285238438
+      Quixote gold_18: -6456490481349545545
+      Quixote gold_98: -2791599214477309031
+      Quixote gold_82: 1623149828047359528
+      Quixote gold_31: -2487715281520017762
+      Quixote gold_119: -797685446232823926
+      Quixote gold_9: 1205923381991956808
+      Quixote gold_90: -5389909241186881021
+      Quixote gold_26: 8999227270372682436
+      Quixote gold_21: 8531484501482549817
+      Quixote gold_116: -4329679812024686544
+      Quixote gold_104: 1852667617664633156
+      Quixote gold_85: -1074270333714423877
+      Quixote gold_12: -5431960666915123025
+      Quixote gold_41: -7250799851268223498
+      Quixote gold_96: 3086315774150073568
+      Quixote gold_51: 1041441399610849523
+      Quixote gold_39: -8542938509791975270
+      Quixote gold_58: 6218271298424965872
+      Quixote gold_13: -201389405710165603
+      Quixote gold_32: 3777490043599784677
+      Quixote gold_78: 9083347831532266965
+      Quixote gold_6: -1022715626536645093
+      Quixote gold_97: -7111482328624368778
+      Quixote gold_57: -361449631714313809
+      Quixote gold_27: -5364385726321007243
+      Quixote gold_83: 5550741059086749010
+      Quixote gold_74: 7979760595835163371
+      Quixote gold_60: 4682438100924214073
+      Quixote gold_14: -797222079630412944
+      Quixote gold_42: 7582382701268333349
+      Quixote gold_5: -2197389511187670716
+      Quixote gold_113: -9004557466616146166
+      Quixote gold_93: 3219479504910826302
+      Quixote gold_115: 1578893530091635026
+      Quixote gold_81: -1387376024278207210
+      Quixote gold_118: 2951646146969340178
+      Quixote gold_22: -2126993059417430434
+      Quixote gold_23: 3556797797929159270
+      Quixote gold_25: -4553396412210669467
+      Quixote gold_15: 474296775693394726
+      Quixote gold_79: 5084471647151668669
+      Quixote gold_68: -4662222312582731719
+      Quixote gold_89: -7468669704443407376
+      Quixote gold_40: 3201980452824194333
+      Quixote gold_102: -8908265215856030888
+      Quixote gold_112: -5577255033361463721
+      Quixote gold_64: -5586095614326833010
+      Quixote gold_101: 7077266534181214430
+      Quixote gold_59: 4140282811409379799
+      Quixote gold_111: -4597776316135200982
+      Quixote gold_71: 8854090932925620376
+      Quixote gold_70: -3857420338886817359
+      Quixote gold_95: 7164613602253110809
+      Quixote gold_100: 7677732679929261984
+      Quixote gold_4: 7627842159807178611
+      Quixote gold_86: 6709043131456676162
+      Quixote gold_7: 6703388775347601345
+      Quixote gold_36: 8148043403726365164
+      Quixote gold_20: -7461571686048347205
+      Quixote gold_0: 3153988092075409104
+      Quixote gold_38: -9124719720951089639
+      Quixote gold_65: -1690283817339874711
+      Quixote gold_88: 283278413534211838
+      Quixote gold_1: 1360554037585995261
+      Quixote gold_35: -8740482219849212855
+      Quixote gold_91: -8619519830100528722
+      Quixote gold_24: -1650694713556151353
+      Quixote gold_28: 643207628740003730
+      Quixote gold_43: -1209066144715665141
+      Quixote gold_8: -351004366304723207
+      Quixote gold_66: -7122762827040475728
+      Quixote gold_34: 2673140536521435589
+      Quixote gold_72: 9199171438659114341
+      Quixote gold_114: 7881668427712338240
+      Quixote gold_30: 7603143140761313927
+      Quixote gold_19: 7253786161957778012
+      Quixote gold_77: 388504047408937669
+      Quixote gold_2: -6594468480589377557
+      Quixote gold_10: -3902548186388890418
+      Quixote gold_52: -7377821382935935934
+      Quixote gold_3: 8924379737449804481
+      Quixote gold_84: 880860104524759693
+      Quixote gold_110: 7968579991918318589
+      Quixote gold_105: 5194335342540282462
+      Quixote gold_49: 451110641334569553
+      Quixote gold_46: -5411292819739710648
+      Quixote gold_73: 5132133050779008821
+      Quixote gold_11: 2730087561265012465
+      Quixote gold_76: 916663665911249971
+      Quixote gold_103: 2586580922694561501
+      Quixote gold_29: 6325126983654011483
+      Quixote gold_80: -1870269938523008936
+      Quixote gold_92: -2150430550559998165
+      Quixote gold_94: -6553847478946326865
+      Quixote gold_16: 8589763780854079852
+      Quixote gold_99: -8747660186751062737
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

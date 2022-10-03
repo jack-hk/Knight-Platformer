@@ -108,7 +108,7 @@ TextureImporter:
       213: -874744328437952478
     second: T_grassland_34
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -129,6 +129,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -167,6 +168,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -230,6 +232,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -988,6 +1002,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      T_grassland_10: -8722075041053490611
+      T_grassland_20: 7142042270868176456
+      T_grassland_25: -5082976004330555980
+      T_grassland_26: 2355944678025392883
+      T_grassland_22: -6103158582891374820
+      T_grassland_6: -5387986191397714249
+      T_grassland_5: 3003909877992817506
+      T_grassland_8: -2935282622677561207
+      T_grassland_21: -3288861683486137095
+      T_grassland_18: -3090734512325566202
+      T_grassland_4: -865560314159594308
+      T_grassland_3: 9207474681696866344
+      T_grassland_27: 5155230623516245172
+      T_grassland_13: 2568477690874422903
+      T_grassland_15: -2851015658375241414
+      T_grassland_32: -6102079649007182304
+      T_grassland_2: -2717252556951104605
+      T_grassland_12: 9173687140510281380
+      T_grassland_0: -7462013935188716592
+      T_grassland_34: -874744328437952478
+      T_grassland_17: -2758845191672350895
+      T_grassland_31: -6098572402539610090
+      T_grassland_30: 5949881750686878815
+      T_grassland_16: -6083434120275616183
+      T_grassland_24: 1169841233131821741
+      T_grassland_28: 2387352903548938080
+      T_grassland_23: -1316597111826030081
+      T_grassland_19: -6350722855299296177
+      T_grassland_29: -9043507029810240519
+      T_grassland_11: -4030586527537034508
+      T_grassland_7: 8611608395897559030
+      T_grassland_1: 8575856850686848314
+      T_grassland_14: -3397091611851798175
+      T_grassland_9: -2524804721254207726
+      T_grassland_33: -5241004098152855471
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
